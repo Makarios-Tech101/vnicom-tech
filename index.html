@@ -16,15 +16,20 @@
             </a>
         </div>
 
-        <ul>
+        <ul id="menu" class="">
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Our Story</a></li>
-            <li><a href="index.html">Our Programmes</a></li>
-            <li><a href="index.html">Collaborate with us</a></li>
+            <li><a href="index.html#our-story">Our Story</a></li>
+            <li><a href="index.html#programme">Our Programmes</a></li>
+            <!-- <li><a href="index.html#footer">Collaborate with us</a></li> -->
+            <button id="close">X</button>
         </ul>
+
+        <button id="toggle-nav">
+            --
+        </button>
     </nav>
 </header>
-<div id="banner">We raised $1 million dollars to bring you the best education! 🎉🥳🎊 — Read more</div>
+<a id="banner">Learn frontend web development! 🎉🥳🎊 — click here to join the waiting list</a>
 <main id="welcome">
     <div id="intro">
         <h1>
@@ -33,7 +38,7 @@
 
         <p>Earn a Diploma in highly-sought after tech skills.</p>
 
-        <a href="index.html#proggrames" class="btn">
+        <a href="index.html#programme" class="btn">
             Explore all programmes
         </a>
 
@@ -69,8 +74,8 @@
     <div id="programmes">
         <article>
             <a href="#">
-                <img src="images/about.jpg" alt="">
                 <h3>Python</h3>
+                <img src="images/about.jpg" alt="">
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, autem!
                 </p>
@@ -78,8 +83,8 @@
         </article>
         <article>
             <a href="#">
+                <h3>Frontend Web Development</h3>
                 <img src="images/about.jpg" alt="">
-                <h3>Python</h3>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, autem!
                 </p>
@@ -87,8 +92,8 @@
         </article>
         <article>
             <a href="#">
+                <h3>Data Science</h3>
                 <img src="images/about.jpg" alt="">
-                <h3>Python</h3>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, autem!
                 </p>
@@ -137,9 +142,9 @@
 </section>
 
 <section id="prepare">
-    <div id="image">
+    <!-- <div id="image">
         <img src="images/about.jpg" alt="">
-    </div>
+    </div> -->
     <div id="intro">
         <h2>
             Get Ready <br> For the Future
@@ -149,11 +154,11 @@
             As the name suggests, AltSchool Africa is different from the traditional institutions. We are a school for individuals looking to gain technical skills and kickstart a career in Software Engineering. AltSchool Africa takes a non-traditional approach to learning by teaching courses directly connected with the selected track .
         </p>
 
-        <a href="#" class="btn">Find a Programme</a>
+        <a href="index.html#programme" class="btn">Pick a Programme</a>
     </div>
 </section>
 
-<footer>
+<footer id="footer">
     <div id="company">
         <span>
             © Copyright 2022 
@@ -174,5 +179,7 @@
         </div>
     </div>
 </footer>
+
+<script defer src="js/app.js"></script>
 </body>
 </html>

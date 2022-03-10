@@ -1,26 +1,18 @@
 #prepare{
     width:100%;
     background: $background;
+    background-image: url('/images/about.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    position: relative;
 
-    padding: 2% 3%;
-
-    #image{
-        width: 60%;
-    }
+    padding: 4% 2%;
     #intro{
-        width: 50%;
+        width: 60%;
         background: rgb(248, 248, 248);
-        position: absolute;
-
-        left: 5%;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 2;
 
         padding: 3% 5%;
         h2{
@@ -32,10 +24,11 @@
     }
 }
 
-@media screen and (max-width:1050px) {
-
-}
-
-@media screen and (max-width:500px) {
-
+@media screen and (max-width:1000px) {
+    #prepare{
+        padding: 18% 2%;
+        #intro{
+            width: 100%;
+        }
+    }    
 }

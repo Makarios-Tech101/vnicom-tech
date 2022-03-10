@@ -41,9 +41,17 @@ main{
 }
 
 @media screen and (max-width:1050px) {
-
+    main{    
+        #intro{
+            width: 80%;
+        }
+    }
 }
 
 @media screen and (max-width:500px) {
-
+    main{    
+        #intro{
+            width: 95%;
+        }
+    }
 }
