@@ -1,0 +1,40 @@
+header{
+    width:100%;
+    background: $background;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        #logo{
+            width: 20%;
+
+            a{
+                img{
+                    width: 70%;
+                }
+            }
+        }
+        ul{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li{
+                a{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+}
+
+@media screen and (max-width:500px) {
+
+}

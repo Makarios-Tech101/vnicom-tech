@@ -1,0 +1,41 @@
+#prepare{
+    width:100%;
+    background: $background;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
+    padding: 2% 3%;
+
+    #image{
+        width: 60%;
+    }
+    #intro{
+        width: 50%;
+        background: rgb(248, 248, 248);
+        position: absolute;
+
+        left: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+
+        padding: 3% 5%;
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            margin:20px 0px;
+        }
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+}
+
+@media screen and (max-width:500px) {
+
+}

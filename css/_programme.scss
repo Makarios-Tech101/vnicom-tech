@@ -1,0 +1,36 @@
+#programme{
+    width:100%;
+    background:rgb(253, 249, 211);
+    color: $white;
+
+    #intro{
+        text-align: center;
+        margin-bottom: 40px;
+
+
+        h2{
+            margin-bottom: 10px;
+        }
+    }
+
+    #programmes{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        article{
+            width: 30%;
+            h3{
+                margin: 10px 0px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+}
+
+@media screen and (max-width:500px) {
+
+}

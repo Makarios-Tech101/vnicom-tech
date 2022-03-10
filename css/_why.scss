@@ -1,0 +1,54 @@
+#why-us{
+    width:100%;
+    background: rgb(250, 255, 244);
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    // min-height: 90vh;
+
+    #intro{
+        width: 30%;
+        h2{
+            margin-bottom: 40px;
+        }
+
+        p{
+            font-size: 1.6em;
+            text-align: left;
+        }
+    }
+
+    #why{
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+        align-content: space-between;
+        flex-wrap: wrap;
+
+        article{
+            width: 45%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            img{
+                width: 35%;
+                margin-right: 15px;
+            }
+            div{
+                h3{
+                    margin-bottom: 30px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+}
+
+@media screen and (max-width:500px) {
+
+}

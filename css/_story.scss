@@ -1,0 +1,29 @@
+#our-story{
+    width:100%;
+    background: $white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    #image{
+        width: 40%;
+    }
+    #intro{
+        width: 50%;
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            margin:20px 0px;
+        }
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+}
+
+@media screen and (max-width:500px) {
+
+}

@@ -1,0 +1,31 @@
+footer{
+    width:100%;
+    background: $darkBlue;
+    background-image: url('/images/logo-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    height: 50vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: $white;
+
+    i,a,span{
+        color: $white;
+    }
+
+    #connect{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+}
+
+@media screen and (max-width:500px) {
+
+}
