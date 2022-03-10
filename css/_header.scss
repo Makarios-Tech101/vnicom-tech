@@ -64,10 +64,12 @@ header{
                 top: 0px;
                 z-index: 5;
                 background:$darkerBlue;
-                width: 0px;
-                visibility: hidden;
+                width: 5px;
+                opacity: 0;
+                transition: all .5s ease-in;
                 height: 100vh;
                 padding: 3% 5%;
+
                 
 
                 #container{
@@ -112,7 +114,7 @@ header{
                 
                 &.show{
                     width: 100%;
-                    visibility:visible;
+                    opacity: 1;
                 }
             }
             #toggle-nav{
