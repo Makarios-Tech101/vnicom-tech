@@ -183,10 +183,15 @@ header nav #toggle-nav {
     position: absolute;
     top: 30px;
     right: 30px;
+    font-size: 1.8em;
+  }
+  header nav ul #close i {
     color: #ffffff;
   }
   header nav #toggle-nav {
     display: block;
+    font-size: 1.8em;
+    color: #010336;
   }
 }
 
@@ -359,9 +364,10 @@ main #intro #opening-soon a {
   }
   #programme #programmes article {
     width: 100%;
+    margin-bottom: 30px;
   }
   #programme #programmes article h3 {
-    margin: 10px 0px;
+    margin-bottom: 20px;
   }
 }
 

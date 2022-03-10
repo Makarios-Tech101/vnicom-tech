@@ -84,11 +84,17 @@ header{
                     position: absolute;
                     top: 30px;
                     right: 30px;
-                    color: $white;
+                    font-size: 1.8em;
+
+                    i{
+                        color: $white;
+                    }
                 }
             }
             #toggle-nav{
                 display: block;
+                font-size: 1.8em;
+                color: $darkerBlue;
             }
         }
     }
