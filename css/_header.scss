@@ -16,20 +16,26 @@ header{
                 }
             }
         }
-        ul{
+        #menu{
             width: 35%;
+            color: $white;
+
+            #container{
+                display: none;
+            }
+
+           ul{
+            width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-
+            
             li{
                 a{
                     font-weight: 700;
                 }
             }
-            #close{
-                display: none;
-            }
+           }
         }
         #toggle-nav{
             display: none;
@@ -52,43 +58,61 @@ header{
                     }
                 }
             }
-            ul{
+            #menu{
                 position: fixed;
                 left: 0px;
-                top: 0;
+                top: 0px;
+                z-index: 5;
                 background:$darkerBlue;
                 width: 0px;
                 visibility: hidden;
                 height: 100vh;
-                display: flex;
-                justify-content: flex-start;
-                align-items: flex-start;
-                flex-direction: column;
-                padding: 20% 10%;
+                padding: 3% 5%;
+                
+
+                #container{
+                    display: block;
+                    width: 100%;
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    margin-bottom: 50px;
+
+                    a{
+                        width: 28%;
+                    }
+
+                    #close{
+                        font-size: 1.8em;
+                        color: $white;
+
+                        i{
+                            color: $white;
+                        }
+                    }
+                }
+
+                ul{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+
+                    li{
+                        margin-bottom: 40px;
+                        a{
+                            font-weight: 600;
+                            color: $white;
+                        }
+                    }
+                }
+                
                 
                 &.show{
                     width: 100%;
                     visibility:visible;
-                }
-
-                li{
-                    margin-bottom: 40px;
-                    a{
-                        font-weight: 600;
-                        color: $white;
-                    }
-                }
-
-                #close{
-                    display: block;
-                    position: absolute;
-                    top: 30px;
-                    right: 30px;
-                    font-size: 1.8em;
-
-                    i{
-                        color: $white;
-                    }
                 }
             }
             #toggle-nav{
@@ -98,8 +122,4 @@ header{
             }
         }
     }
-}
-
-@media screen and (max-width:500px) {
-
 }

@@ -108,8 +108,17 @@ header nav #logo a img {
   width: 70%;
 }
 
-header nav ul {
+header nav #menu {
   width: 35%;
+  color: #ffffff;
+}
+
+header nav #menu #container {
+  display: none;
+}
+
+header nav #menu ul {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,12 +130,8 @@ header nav ul {
           align-items: center;
 }
 
-header nav ul li a {
+header nav #menu ul li a {
   font-weight: 700;
-}
-
-header nav ul #close {
-  display: none;
 }
 
 header nav #toggle-nav {
@@ -144,14 +149,42 @@ header nav #toggle-nav {
   header nav #logo a img {
     width: 100%;
   }
-  header nav ul {
+  header nav #menu {
     position: fixed;
     left: 0px;
-    top: 0;
+    top: 0px;
+    z-index: 5;
     background: #010336;
     width: 0px;
     visibility: hidden;
     height: 100vh;
+    padding: 3% 5%;
+  }
+  header nav #menu #container {
+    display: block;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+  }
+  header nav #menu #container a {
+    width: 28%;
+  }
+  header nav #menu #container #close {
+    font-size: 1.8em;
+    color: #ffffff;
+  }
+  header nav #menu #container #close i {
+    color: #ffffff;
+  }
+  header nav #menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -165,28 +198,17 @@ header nav #toggle-nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 20% 10%;
   }
-  header nav ul.show {
-    width: 100%;
-    visibility: visible;
-  }
-  header nav ul li {
+  header nav #menu ul li {
     margin-bottom: 40px;
   }
-  header nav ul li a {
+  header nav #menu ul li a {
     font-weight: 600;
     color: #ffffff;
   }
-  header nav ul #close {
-    display: block;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    font-size: 1.8em;
-  }
-  header nav ul #close i {
-    color: #ffffff;
+  header nav #menu.show {
+    width: 100%;
+    visibility: visible;
   }
   header nav #toggle-nav {
     display: block;
