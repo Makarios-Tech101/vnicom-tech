@@ -125,3 +125,22 @@ header{
         }
     }
 }
+
+
+@media screen and (max-width:500px) {
+    header{
+        nav{
+            #logo{
+                width: 40%;
+            }
+            #menu{
+                #container{
+
+                    a{
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+}
