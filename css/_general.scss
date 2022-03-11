@@ -8,7 +8,7 @@
     color: $darkerBlue;
     box-sizing: border-box;
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mukta', sans-serif;
     // font-family: 'Nunito Sans', sans-serif;
     font-size: 1em;
 }
@@ -38,7 +38,7 @@ a{
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 p{
@@ -73,6 +73,7 @@ button{
     cursor: pointer;
     background: none;
 }
+
 @media screen and (max-width:1000px) {
     h1{
         font-size: 2.5em;

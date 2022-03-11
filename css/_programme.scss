@@ -1,6 +1,6 @@
 #programme{
     width:100%;
-    background:rgb(253, 249, 211);
+    background:#f3f3f3;
     color: $white;
 
     #intro{
@@ -19,9 +19,14 @@
         align-items: flex-start;
 
         article{
-            width: 30%;
-            h3{
-                margin: 10px 0px;
+            width: 32%;
+            background: $white;
+            box-shadow: 2px 3px 12px $background;
+            div{
+                padding: 5% 7%;
+                h3{
+                    margin: 10px 0px;
+                }
             }
         }
     }
