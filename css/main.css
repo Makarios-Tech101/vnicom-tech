@@ -180,8 +180,8 @@ header nav #toggle-nav {
     background: #010336;
     width: 5px;
     opacity: 0;
-    -webkit-transition: all .5s ease-in;
-    transition: all .5s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
     height: 100vh;
     padding: 3% 5%;
   }
@@ -297,6 +297,9 @@ main #intro #opening-soon a {
 }
 
 @media screen and (max-width: 1050px) {
+  main {
+    padding: 5% 10%;
+  }
   main #intro {
     width: 80%;
   }
