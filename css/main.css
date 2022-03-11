@@ -320,7 +320,7 @@ main #intro #opening-soon a {
 }
 
 #our-story #image {
-  width: 40%;
+  width: 45%;
 }
 
 #our-story #intro {
@@ -328,7 +328,7 @@ main #intro #opening-soon a {
 }
 
 #our-story #intro h2 {
-  margin: 30px 0px;
+  margin-bottom: 20px;
 }
 
 #our-story #intro p {
