@@ -27,7 +27,7 @@ header{
     padding: 2% 5%;
 }
 
-main, section{
+section{
     padding: 8% 5%;
 }
 footer{
@@ -62,11 +62,18 @@ img{
     width: 100%;
 }
 .btn{
-    padding: 20px 35px;
+    padding: 2% 8%;
     background: #000000;
     color: $white;
     display: inline-block;
+    transition: background .2s ease-in;
 }
+i{
+    color: inherit;
+}
+// .btn:hover{
+//     background: $gold;
+// }
 button{
     outline: none;
     border: none;

@@ -22,7 +22,7 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 25%;
+        width: 10%;
     }
 }
 
@@ -31,5 +31,9 @@ footer{
 }
 
 @media screen and (max-width:500px) {
-
+    footer{    
+        #connect{
+            width: 35%;
+        }
+    }
 }

@@ -22,10 +22,39 @@
             width: 32%;
             background: $white;
             box-shadow: 2px 3px 12px $background;
-            div{
-                padding: 5% 7%;
+            position: relative;
+
+            .content{
+                padding: 4% 7%;
+
                 h3{
-                    margin: 10px 0px;
+                    margin-bottom: 10px;
+                }
+
+                p{
+                    margin-bottom: 20px;
+                }
+
+                .join{
+                    padding: 3% 0px;
+                    color: $lightBlue;
+                    font-size: 1.1em;
+                    i{
+                        color: $lightBlue;
+                    }
+                }
+
+                .bagde{
+                    background: rgba($color: #f0ee7e, $alpha: 1.0);
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    padding: 2% 3%;
+                    // border-radius: 0px 25px 25px 0px;
+
+                    span{
+                        color: $darkBlue;
+                    }
                 }
             }
         }

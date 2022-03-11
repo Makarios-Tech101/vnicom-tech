@@ -27,7 +27,7 @@ header {
   padding: 2% 5%;
 }
 
-main, section {
+section {
   padding: 8% 5%;
 }
 
@@ -69,10 +69,16 @@ img {
 }
 
 .btn {
-  padding: 20px 35px;
+  padding: 2% 8%;
   background: #000000;
   color: #ffffff;
   display: inline-block;
+  -webkit-transition: background .2s ease-in;
+  transition: background .2s ease-in;
+}
+
+i {
+  color: inherit;
 }
 
 button {
@@ -104,6 +110,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 5;
   width: 100%;
 }
 
@@ -245,16 +252,17 @@ header nav #toggle-nav {
 #banner {
   width: 100%;
   background: #0006b1;
-  padding: 15px;
+  padding: 1%;
   color: #ffffff;
   text-align: center;
   display: block;
+  font-size: 1em;
 }
 
 main {
   width: 100%;
   background: #E5E5EB;
-  min-height: 90vh;
+  padding: 5%;
 }
 
 main #intro {
@@ -264,7 +272,7 @@ main #intro {
 }
 
 main #intro p {
-  margin: 30px 0px;
+  margin: 20px 0px;
 }
 
 main #intro .btn {
@@ -278,13 +286,13 @@ main #intro #opening-soon {
   border-radius: 20px;
   padding: 8px 10px;
   font-weight: 550;
-  font-size: 0.9em;
+  font-size: 1em;
   margin-top: 25px;
 }
 
 main #intro #opening-soon a {
   color: #0006b1;
-  font-weight: 550;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 1050px) {
@@ -321,6 +329,15 @@ main #intro #opening-soon a {
 
 #our-story #image {
   width: 45%;
+  overflow: hidden;
+}
+
+#our-story #image img {
+  width: 110%;
+  object-fit: cover;
+  -o-object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 #our-story #intro {
@@ -399,14 +416,41 @@ main #intro #opening-soon a {
   background: #ffffff;
   -webkit-box-shadow: 2px 3px 12px #E5E5EB;
           box-shadow: 2px 3px 12px #E5E5EB;
+  position: relative;
 }
 
-#programme #programmes article div {
-  padding: 5% 7%;
+#programme #programmes article .content {
+  padding: 4% 7%;
 }
 
-#programme #programmes article div h3 {
-  margin: 10px 0px;
+#programme #programmes article .content h3 {
+  margin-bottom: 10px;
+}
+
+#programme #programmes article .content p {
+  margin-bottom: 20px;
+}
+
+#programme #programmes article .content .join {
+  padding: 3% 0px;
+  color: #0006b1;
+  font-size: 1.1em;
+}
+
+#programme #programmes article .content .join i {
+  color: #0006b1;
+}
+
+#programme #programmes article .content .bagde {
+  background: #f0ee7e;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 2% 3%;
+}
+
+#programme #programmes article .content .bagde span {
+  color: #003B65;
 }
 
 @media screen and (max-width: 800px) {
@@ -556,7 +600,7 @@ main #intro #opening-soon a {
 #prepare {
   width: 100%;
   background: #E5E5EB;
-  background-image: url("/images/about.jpg");
+  background-image: url("/images/web-design.jpg");
   background-size: cover;
   background-attachment: fixed;
   display: -webkit-box;
@@ -632,6 +676,12 @@ footer #connect {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 25%;
+  width: 10%;
+}
+
+@media screen and (max-width: 500px) {
+  footer #connect {
+    width: 35%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,10 +1,11 @@
 #banner{
     width:100%;
     background: $lightBlue;
-    padding: 15px;
+    padding: 1%;
     color: $white;
     text-align: center;
     display: block;
+    font-size: 1em;
 }
 
 @media screen and (max-width:1050px) {

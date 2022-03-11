@@ -8,6 +8,14 @@
 
     #image{
         width: 45%;
+        overflow: hidden;
+
+        img{
+            width: 110%;
+            object-fit: cover;
+            -o-object-fit: cover;
+            object-position: center;
+        }
     }
     #intro{
         width: 50%;
