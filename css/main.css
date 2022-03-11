@@ -87,6 +87,12 @@ button {
   }
 }
 
+@media screen and (max-width: 760px) {
+  header {
+    padding: 4% 5%;
+  }
+}
+
 header {
   width: 100%;
   background: #E5E5EB;

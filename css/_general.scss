@@ -79,3 +79,9 @@ button{
         font-size: 1.8em;
     }
 }
+
+@media screen and (max-width:760px) {
+    header{
+        padding: 4% 5%;
+    }
+}
