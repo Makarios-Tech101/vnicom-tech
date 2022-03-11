@@ -8,10 +8,6 @@ main{
         margin: 0px auto;
         text-align: center;
 
-        h1{
-            
-        }
-
         p{
             margin: 30px 0px;
         }
@@ -44,6 +40,10 @@ main{
     main{    
         #intro{
             width: 80%;
+
+            #opening-soon{
+                width: 90%;
+            }
         }
     }
 }
@@ -52,6 +52,10 @@ main{
     main{    
         #intro{
             width: 95%;
+
+            #opening-soon{
+                width: 100%;
+            }
         }
     }
 }
