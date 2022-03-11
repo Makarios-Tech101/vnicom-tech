@@ -10,6 +10,10 @@
   font-size: 1em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
   background: #ffffff;
