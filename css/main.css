@@ -28,11 +28,11 @@ header {
 }
 
 section {
-  padding: 8% 5%;
+  padding: 80px 5%;
 }
 
 footer {
-  padding: 10% 5%;
+  padding: 8% 5%;
 }
 
 a {
@@ -89,6 +89,9 @@ button {
 }
 
 @media screen and (max-width: 1000px) {
+  section {
+    padding: 70px 5%;
+  }
   h1 {
     font-size: 2.5em;
   }
@@ -298,7 +301,7 @@ main #intro #opening-soon a {
 
 @media screen and (max-width: 1050px) {
   main {
-    padding: 5% 10%;
+    padding: 10% 5%;
   }
   main #intro {
     width: 80%;
@@ -310,7 +313,7 @@ main #intro #opening-soon a {
 
 @media screen and (max-width: 500px) {
   main #intro {
-    width: 95%;
+    width: 100%;
   }
   main #intro #opening-soon {
     width: 100%;
