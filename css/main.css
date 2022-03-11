@@ -40,7 +40,7 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 p {
@@ -158,6 +158,7 @@ header nav #menu ul {
 
 header nav #menu ul li a {
   font-weight: 600;
+  font-size: 1.2em;
 }
 
 header nav #toggle-nav {
@@ -434,7 +435,6 @@ main #intro #opening-soon a {
 #programme #programmes article .content .join {
   padding: 3% 0px;
   color: #0006b1;
-  font-size: 1.1em;
 }
 
 #programme #programmes article .content .join i {
@@ -442,7 +442,7 @@ main #intro #opening-soon a {
 }
 
 #programme #programmes article .content .bagde {
-  background: #f0ee7e;
+  background: #ffffe2;
   position: absolute;
   top: 0px;
   left: 0px;
