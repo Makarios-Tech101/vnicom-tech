@@ -416,6 +416,10 @@ main #intro #opening-soon a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #programme #programmes article {
@@ -424,6 +428,7 @@ main #intro #opening-soon a {
   -webkit-box-shadow: 2px 3px 12px #E5E5EB;
           box-shadow: 2px 3px 12px #E5E5EB;
   position: relative;
+  margin-bottom: 30px;
 }
 
 #programme #programmes article .content {

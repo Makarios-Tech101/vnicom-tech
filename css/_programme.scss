@@ -17,12 +17,15 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
 
         article{
             width: 32%;
             background: $white;
             box-shadow: 2px 3px 12px $background;
             position: relative;
+            margin-bottom: 30px;
 
             .content{
                 padding: 4% 7%;
