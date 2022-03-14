@@ -25,9 +25,22 @@
             background: $white;
             box-shadow: 2px 3px 12px $background;
             position: relative;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
 
+            .img-wrapper{
+                width: 100%;
+                height: 250px;
+                margin-bottom: 10px;
+                img{
+                    width: 100%;
+                    height: 250px;
+                    
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
             .content{
+                width: 100%;
                 padding: 4% 7%;
 
                 h3{
@@ -47,7 +60,7 @@
                 }
 
                 .bagde{
-                    background: rgba($color: #ffffe2, $alpha: 1.0);
+                    background: rgba($color: #fdfdfd, $alpha: 1.0);
                     position: absolute;
                     top: 0px;
                     left: 0px;

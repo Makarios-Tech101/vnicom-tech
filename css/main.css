@@ -108,7 +108,7 @@ button {
 
 header {
   width: 100%;
-  background: #E5E5EB;
+  background: #ffffff;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -428,10 +428,26 @@ main #intro #opening-soon a {
   -webkit-box-shadow: 2px 3px 12px #E5E5EB;
           box-shadow: 2px 3px 12px #E5E5EB;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+#programme #programmes article .img-wrapper {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+#programme #programmes article .img-wrapper img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 #programme #programmes article .content {
+  width: 100%;
   padding: 4% 7%;
 }
 
@@ -453,7 +469,7 @@ main #intro #opening-soon a {
 }
 
 #programme #programmes article .content .bagde {
-  background: #ffffe2;
+  background: #fdfdfd;
   position: absolute;
   top: 0px;
   left: 0px;
