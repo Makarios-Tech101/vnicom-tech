@@ -2,7 +2,7 @@ footer{
     width:100%;
     background: $darkBlue;
     background-image: url('/images/logo-bg.svg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-size: contain;
     display: flex;
@@ -15,13 +15,13 @@ footer{
         color: $white;
     }
     i{
-        font-size: 2em;
+        font-size: em;
     }
 
     #connect{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+       /* align-items: center;*/
         width: 10%;
     }
 }

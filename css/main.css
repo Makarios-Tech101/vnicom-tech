@@ -391,6 +391,7 @@ main #intro #opening-soon a {
   }
 }
 
+
 #programme {
   width: 100%;
   background: #f3f3f3;
@@ -661,7 +662,7 @@ footer {
   width: 100%;
   background: #003B65;
   background-image: url("/images/logo-bg.svg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   background-size: contain;
   display: -webkit-box;
@@ -682,7 +683,7 @@ footer i, footer a, footer span {
 }
 
 footer i {
-  font-size: 2em;
+  font-size: em;
 }
 
 footer #connect {
@@ -692,9 +693,7 @@ footer #connect {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  /* align-items: center;*/
   width: 10%;
 }
 
