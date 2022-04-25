@@ -1,29 +1,48 @@
 footer{
-    width:100%;
-    background: $darkBlue;
-    background-image: url('/images/logo-bg.svg');
-    background-repeat: repeat;
-    background-position: center;
-    background-size: contain;
-    display: flex;
-    height: 50vh;
-    justify-content: space-between;
-    align-items: flex-end;
-    color: $white;
-
-    i,a,span{
-        color: $white;
-    }
-    i{
-        font-size: em;
-    }
-
-    #connect{
+        width:100%;
+        background: $darkBlue;
+        background-image: url('/images/logo-bg.svg');
+        background-repeat: repeat;
+        background-position: center;
+        background-size: contain;
         display: flex;
+        height: 50vh;
         justify-content: space-between;
-       /* align-items: center;*/
-        width: 10%;
-    }
+        align-items: flex-start;
+        flex-wrap: wrap;
+        color: $white;
+
+        i,a,span{
+            color: $white;
+        }
+        i{
+            font-size: 2em;
+        }
+
+        #company{
+            width: 30%;
+            p{
+                color: #FFFFFF;
+            }
+
+            
+            #copyright{
+                display: inline-block;
+                margin: 40px 0px;
+                color: #FFFFFF;
+            }
+        }
+
+        #links{
+            width: 30%;
+        }
+
+        #connect{
+            display: flex;
+            justify-content: space-between;
+        /* align-items: center;*/
+            width: 20%;
+        }
 }
 
 @media screen and (max-width:1050px) {

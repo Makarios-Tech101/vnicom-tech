@@ -671,9 +671,11 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   color: #ffffff;
 }
 
@@ -682,7 +684,25 @@ footer i, footer a, footer span {
 }
 
 footer i {
-  font-size: em;
+  font-size: 2em;
+}
+
+footer #company {
+  width: 30%;
+}
+
+footer #company p {
+  color: #FFFFFF;
+}
+
+footer #company #copyright {
+  display: inline-block;
+  margin: 40px 0px;
+  color: #FFFFFF;
+}
+
+footer #links {
+  width: 30%;
 }
 
 footer #connect {
@@ -693,7 +713,7 @@ footer #connect {
       -ms-flex-pack: justify;
           justify-content: space-between;
   /* align-items: center;*/
-  width: 10%;
+  width: 20%;
 }
 
 @media screen and (max-width: 500px) {
