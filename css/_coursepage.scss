@@ -73,10 +73,10 @@
     background-position: center;
     background-size: cover;
     h1{
-        width: 50%;
+        width: 40%;
     }
     p{
-        width: 50%;
+        width: 40%;
     }
     .btncont{
         margin-top: 60px;
@@ -105,9 +105,7 @@
         display: none;
         
     }
-    .view{
-        text-align: justify;
-    }
+    
 }
 
 .bg{
@@ -163,12 +161,19 @@
     }
     
 }
+
+
+
 @media screen and (max-width: 647px){
+   
     #bghero h1{
         line-height: 3rem;
 
     }
 }
+
+
+
 @media screen and (max-width: 611px){
    
         .btncont button{
@@ -221,7 +226,7 @@
     }
 
     #bghero{
-        background: url('../images/programmes/frontendherobg2.jpg');
+        background:white;
         background-size: cover;
         object-fit: cover;
         background-repeat: no-repeat;
@@ -229,6 +234,7 @@
         background-size: cover;
         p{
             color: $lightBlue;
+            width: 100%;
         }
     }
 

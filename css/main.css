@@ -692,10 +692,10 @@ footer #copyright p a {
   background-size: cover;
 }
 #bghero h1 {
-  width: 50%;
+  width: 40%;
 }
 #bghero p {
-  width: 50%;
+  width: 40%;
 }
 #bghero .btncont {
   margin-top: 60px;
@@ -721,9 +721,6 @@ footer #copyright p a {
 }
 #overview .nillview {
   display: none;
-}
-#overview .view {
-  text-align: justify;
 }
 
 .bg {
@@ -812,7 +809,7 @@ footer #copyright p a {
     width: 100%;
   }
   #bghero {
-    background: url("../images/programmes/frontendherobg2.jpg");
+    background: white;
     background-size: cover;
     -o-object-fit: cover;
        object-fit: cover;
@@ -822,6 +819,7 @@ footer #copyright p a {
   }
   #bghero p {
     color: #0006b1;
+    width: 100%;
   }
   .oBtnNbg, .oBtnNbg {
     padding: 0.6rem 1rem;
