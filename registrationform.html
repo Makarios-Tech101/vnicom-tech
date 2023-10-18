@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="images/favicon.png">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div id="logo">
+            <a href="index.html">
+                <img src="images//logo.png" alt="">
+            </a>
+        </div>
+
+        <div id="menu" class="">
+            <div id="container">
+                <a href="index.html">
+                    <img src="images//logo-white.svg" alt="">
+                </a>
+                <button id="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            
+            <ul>
+                <li class="close"><a href="index.html">Home</a></li>
+                <li class="close"><a href="index.html#programme">Our Programmes</a></li>
+                <li class="close"><a href="index.html#about-us">About Us</a></li>
+                <li class="close"><a href="mailto:training@vnicomhub.com">Contact Us</a></li>
+                
+                <!-- <li><a href="index.html#footer">Collaborate with us</a></li> -->
+            </ul>
+        </div>
+
+        <button id="toggle-nav">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+</header>
+
+
+ <section>
+     <div class="form-wrapper">
+        <div id="toast-container"></div>
+
+        <h2>Enroll now</h2>
+    <form id="regForm">
+        <!-- <label for="social">How did you hear about us?</label> -->
+        
+            <select class="course-s" id="program">
+                <option value="">Choose a course
+                </option>
+                <option value="Front end development">Front end development</option>
+                <option value="Back end development C#">Back end development C#</option>
+                <option value="Data science">Data science</option>
+                <option value="Design  (UI/UX) + Graphic Design">Design  (UI/UX) + Graphic Design</option>
+            </select>
+            <span id="program-error" class="error" style="color: red;"></span>
+       
+        <div class="row">
+            <div class="form-group">
+                <label for="surname">Surname</label>
+                <input type="text" name="" class="form-field" id="surname">
+                <span id="surname-error" class="error" style="color: red;"></span>
+            </div>
+            <div class="form-group">
+                <label for="firstname">Firstname</label>
+                <input type="text" name="" class="form-field" id="firstname">
+                <span id="firstname-error" class="error" style="color: red;"></span>
+            </div>
+           
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="" class="form-field" id="phone">
+                <span id="phone-error" class="error" style="color: red;"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address
+                </label>
+                <input type="email" name="" class="form-field" id="email">
+                <span id="email-error" class="error" style="color: red;"></span>
+            </div>
+        </div>
+       <div class="row">
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" name="" class="form-field" placeholder="Magboro, Ogun" id="location">
+            <span id="location-error" class="error" style="color: red;"></span>
+        </div>
+        <div class="form-group">
+            <label for="delivery_type">Delivery Type</label>
+            <select name="" class="form-field" id="delivery_type">
+                <option value="">Choose</option>
+                <option value="In-Class">In-Class</option>
+                <option value="Online">Online</option>
+                
+            </select>
+            <span id="delivery_type-error" class="error" style="color: red;"></span>
+        </div>
+       </div>
+       
+    
+        <input type="submit" value="Submit">
+        
+        
+     </form>
+     </div>
+ </section>
+
+
+<footer id="footer">
+    <div id="company">
+        <p>
+            Learn new in-demand skills at Vnicom Tech Hub best-in-class training.
+        </p>
+    </div>
+
+    <div id="pages">
+        <h3 class="small">PAGES</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#programme">Our Programmes</a></li>
+            <li><a href="index.html#about-us">About Us</a></li>
+            <li><a href="mailto:training@vnicomhub.com">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="training">
+        <h3 class="small">TRAINING</h3>
+        <ul>
+            
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Front End Development</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Backend Development</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Python</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Mobile App Development</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Data Science</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">UI/UX Design</a></li>
+        </ul>
+    </div>
+
+
+    <div id="find-us">
+        <h3 class="small">GET IN TOUCH</h3>
+            <ul>
+                <li id="address">
+                    <i class="fa-solid fa-location-dot"></i> 
+                        <span>
+                            Vnicom Solutions 3 Dekunle Atoyebi street, Magboro,Ogun State.
+                        </span>
+                </li>
+                <li><i class="fa-solid fa-phone-volume"></i> <a href="tel:+234 901 495 4421">+234 (901) 495 4421</a></li>
+                <li><i class="fa-solid fa-phone-volume"></i> <a href="tel:+234 915 780 0332">+234 (915) 780 0332</a></li>
+                <li><i class="fa-solid fa-phone-volume"></i> <a href="tel:+234 916 250 9661">+234 (916) 250 9661</a></li>
+                <li><i class="fa-solid fa-at"></i></i> <a href="mailto:training@vnicomhub.com">training@vnicomhub.com</a></li>
+            </ul>
+    </div>
+
+
+    <div id="copyright">
+        <p>© Copyright 2022 <a href="https://www.vnicom.com">Vnicom</a></p>
+    </div>
+
+    
+</footer>
+
+<script src="https://kit.fontawesome.com/0d761cbbd4.js" crossorigin="anonymous"></script>
+<script defer src="js/app.js"></script>
+<script defer src="js/enrollmentform.js"></script>
+</body>
+</html>

@@ -74,12 +74,14 @@
     background-size: cover;
     h1{
         width: 40%;
+        line-height: 50px;
+        margin-bottom: 20px;
     }
     p{
         width: 40%;
     }
     .btncont{
-        margin-top: 60px;
+        margin-top: 50px;
         display: flex;
         gap: 50px;
     }

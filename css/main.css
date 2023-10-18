@@ -693,12 +693,14 @@ footer #copyright p a {
 }
 #bghero h1 {
   width: 40%;
+  line-height: 50px;
+  margin-bottom: 20px;
 }
 #bghero p {
   width: 40%;
 }
 #bghero .btncont {
-  margin-top: 60px;
+  margin-top: 50px;
   display: flex;
   gap: 50px;
 }
@@ -1004,5 +1006,99 @@ footer #copyright p a {
   }
   .story-wrapper img {
     margin-bottom: 15px;
+  }
+}
+.form-wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 40px;
+}
+.form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.form-wrapper form .course-s {
+  border: 0;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 55px;
+  border-radius: 5px;
+  padding-left: 9px;
+  font-size: 1.2rem;
+  margin-top: 25px;
+}
+.form-wrapper form .course-s:focus {
+  border: 0;
+}
+.form-wrapper form .form-field {
+  height: 45px;
+  outline: none;
+  border: none;
+  border: 2px solid #0006b1;
+  border-radius: 3px;
+  padding-left: 5px;
+  font-size: 1.2rem;
+}
+.form-wrapper form input[type=submit] {
+  height: 45px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: #003B65;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.form-wrapper form label {
+  font-size: 1.3rem;
+}
+.form-wrapper form .row {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+.form-wrapper form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-wrapper form input[type=text]:focus, .form-wrapper form input[type=email]:focus, .form-wrapper form select:focus, .form-wrapper form input[type=number]:focus {
+  border: 3px solid #0006b1;
+}
+
+#toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.toast {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.toast.success {
+  background-color: #003B65; /* Green background for success toast */
+}
+
+.toast.error {
+  background-color: #FF5722; /* Red background for error toast */
+}
+
+.toast.show {
+  opacity: 1;
+}
+
+@media screen and (max-width: 615px) {
+  form .row {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */
