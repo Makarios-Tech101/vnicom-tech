@@ -1,3 +1,21 @@
+
+  function openInvitation() {
+    var invitationContainer = document.getElementById('invitation-container');
+    invitationContainer.classList.toggle('showIv')
+  }
+
+  function closeInvitation() {
+    var invitationContainer = document.getElementById('invitation-container');
+    invitationContainer.style.transform = 'scale(0)';
+  }
+
+
+  setTimeout(function() {
+    openInvitation();
+  }, 5000);
+
+
+
 const toggle_btn = document.getElementById('toggle-nav')
 const close_btn = document.getElementById('close')
 const links = document.getElementsByClassName('close')
@@ -34,6 +52,8 @@ btns[1].addEventListener('click', ()=>{
     btns[1].classList.add('bg')
     btns[0].classList.remove('bg')
 })
+
+
 
 
     

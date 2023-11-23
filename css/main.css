@@ -1101,4 +1101,45 @@ footer #copyright p a {
   form .row {
     flex-direction: column;
   }
+}
+.invitation-container {
+  transform: scaleY(0);
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 20px;
+  z-index: 100;
+  bottom: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.showIv {
+  transform: scaleY(1);
+}
+
+#close-btn {
+  cursor: pointer;
+  color: #777;
+  font-size: 20px;
+  float: right;
+  transition: 5s ease-in-out;
+}
+
+#invitation-text {
+  margin-top: 20px;
+}
+
+#join-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
