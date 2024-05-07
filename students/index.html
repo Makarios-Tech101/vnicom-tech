@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Vnicom Tech Hub</title>
+    <title>Students | Vnicom Tech Hub</title>
     <link rel="icon" href="/images/favicon.png">
 
     <link rel="stylesheet" href="/css/main.css">
@@ -55,158 +55,37 @@
     </div>
 
     <section id="graduatedStd">
-        <h3>Graduated Student</h3>
+        <h3>Trained Students</h3>
       <div class="tableWrapper">
-        <table>
+      <div class="tableFilter">
+        <input type="text" id="myInput" placeholder="Search for names..">
+        <select id="sessionFilter">
+            <option value="">All</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+        </select>
+      </div>
+        <table id="myTable">
             <thead>
                 <tr>
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Course Title</th>
                     <th>Cohort Code</th>
-                    <th>Student Number</th>
-                    <th>Issue Link</th>
+                    <th>Course Delivery Type
+                    </th>
+                    <th>Cohort
+                    </th>
+                    <th>Session
+                    </th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>Osaranmaye</td>
-                    <td>Tomiwa</td>
-                    <td>Frontend Development</td>
-                    <td>VFWD-23-Q1</td>
-                    <td>20230201</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-312">STUD-312</a></td>
-                </tr>
-                <tr>
-                    <td>Oyeniran</td>
-                    <td>Mayowa</td>
-                    <td>Frontend Development</td>
-                    <td>VFWD-23-Q2</td>
-                    <td>20230701</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-315">STUD-315</a></td>
-                </tr>
-                <tr>
-                    <td>Sheriff</td>
-                    <td>Abayomi</td>
-                    <td>Frontend Development</td>
-                    <td>VFWD-23-Q2</td>
-                    <td>20230601</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-492">STUD-492</a></td>
-                </tr>
-                <tr>
-                    <td>Olorundare</td>
-                    <td>Solomon</td>
-                    <td>Frontend Development</td>
-                    <td>VFWD-23-Q2</td>
-                    <td>20220501</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Ifeoluwa</td>
-                    <td>Olabode</td>
-                    <td>Frontend Development</td>
-                    <td>VFWD-22-Q1</td>
-                    <td>20220503</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Aina</td>
-                    <td>Folayimika</td>
-                    <td>Frontend Development</td>
-                    <td>VFWD-22-Q2</td>
-                    <td>20220502</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Ediongsenyene</td>
-                    <td>Inokotong</td>
-                    <td>Backend Development</td>
-                    <td>VFSD-23-Q1</td>
-                    <td>20230401</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-328">STUD-328</a></td>
-                </tr>
-                <tr>
-                    <td>Adewumi</td>
-                    <td>Ogunsanya</td>
-                    <td>Backend Development</td>
-                    <td>VFSD-23-Q1</td>
-                    <td>20230402</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-329">STUD-329</a></td>
-                </tr>
-                <tr>
-                    <td>Joshua</td>
-                    <td>Bello</td>
-                    <td>Backend Development</td>
-                    <td>VFSD-23-Q1</td>
-                    <td>20230403</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-301">STUD-301</a></td>
-                </tr>
-                <tr>
-                    <td>Yusrah</td>
-                    <td>Adeleke</td>
-                    <td>Design</td>
-                    <td>VFSD-23-Q1</td>
-                    <td>20230301</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-314">STUD-314</a></td>
-                </tr>
-                <tr>
-                    <td>Fatai Balikis</td>
-                    <td>Opeyemi</td>
-                    <td>Design</td>
-                    <td>VFSD-23-Q1</td>
-                    <td>20230302</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-318">STUD-318</a></td>
-                </tr>
-                <tr>
-                    <td>Roheenat</td>
-                    <td>Mustapha</td>
-                    <td>Design</td>
-                    <td>VDES-23-Q2</td>
-                    <td>20230801</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-344">STUD-344</a></td>
-                </tr>
-                <tr>
-                    <td>Sarat</td>
-                    <td>Mustapha</td>
-                    <td>Design</td>
-                    <td>VDES-23-Q2</td>
-                    <td>20230802</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-345">STUD-345</a></td>
-                </tr>
-                <tr>
-                    <td>Stanley</td>
-                    <td>Akinjide</td>
-                    <td>Design</td>
-                    <td>VDES-22-Q1</td>
-                    <td>20220501</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Akinola</td>
-                    <td>Praise</td>
-                    <td>Design</td>
-                    <td>VDES-22-Q1</td>
-                    <td>20220502</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Josephine</td>
-                    <td>Taiwo Kayode</td>
-                    <td>Design</td>
-                    <td>VDES-22-Q1</td>
-                    <td>20230901</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-332">STUD-332</a></td>
-                </tr>
-                <tr>
-                    <td>Rasheed</td>
-                    <td>Busari</td>
-                    <td>Data Science</td>
-                    <td>VDAS-23-Q1</td>
-                    <td>20230601</td>
-                    <td><a target="_blank" href="https://vnicom.atlassian.net/browse/STUD-269">STUD-269</a></td>
-                </tr>
-            </tbody>
+         <tbody>
+
+         </tbody>
         </table>
+   
       </div>
     </section>
 
@@ -276,7 +155,8 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/0d761cbbd4.js" crossorigin="anonymous"></script>
-    <script defer src="js/app.js"></script>
+    <script defer src="/js/app.js"></script>
+    <script defer src="/js/student.js"></script>
 </body>
 
 </html>

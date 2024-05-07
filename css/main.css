@@ -1175,4 +1175,23 @@ tr:hover {
 
 .tableWrapper {
   overflow-x: auto;
+  margin-top: 1rem;
+}
+.tableWrapper .tableFilter {
+  display: flex;
+  justify-content: space-between;
+}
+.tableWrapper .tableFilter input {
+  height: 7vh;
+  padding-left: 5px;
+  outline: none;
+  border: 1px solid #003B65;
+  border-radius: 3px;
+}
+.tableWrapper .tableFilter select {
+  height: 7vh;
+  padding-left: 5px;
+  outline: none;
+  border: 1px solid #003B65;
+  border-radius: 3px;
 }/*# sourceMappingURL=main.css.map */
