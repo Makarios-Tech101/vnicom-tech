@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome | Vnicom Tech Hub</title>
     <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="css/main.css">
+
   
 </head>
 <body>
@@ -43,6 +45,7 @@
         </button>
     </nav>
 </header>
+
 <div id="invitation-container" class="invitation-container">
     <span id="close-btn" onclick="closeInvitation()">×</span>
     <h2>Join our Slack Channel</h2>
@@ -275,25 +278,28 @@
          </div>
     </div>    
 </section>
-<!-- Student stories -->
-<section id="stories" class="alumni">
+
+<section id="stories"  class="alumni ">
     <h2>
-        Students Stories
+        Alumni Stories
     </h2>
-    <div class="stories" >
-        <div class="story">
-            <a  href="./stories/osaranmaye-tomiwa.html" >
-                <img src="../images/students/tomiwa.png" alt="">
-            <div>
-                <h5> Student Story</h5>
-              
-                    <p>" Osaranmaye Tomiwa: frontend developer" </p>
-               
-                <a class="storylink" href="./stories/osaranmaye-tomiwa.html" ><b>Read Tomiwa's story -></b></a>
+    <div #swiperRef="" class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="">
+                <a  href="./stories/osaranmaye-tomiwa.html" >
+                    <img src="../images/students/tomiwa.png" alt="">
+                <div>
+                    <h5> Student Story</h5>
+                  
+                        <p>" Osaranmaye Tomiwa: frontend developer" </p>
+                   
+                    <a class="storylink" href="./stories/osaranmaye-tomiwa.html" ><b>Read Tomiwa's story -></b></a>
+                </div>
+                </a>
             </div>
-            </a>
-        </div>
-        <div class="story">
+          </div>
+          <div class="swiper-slide">  <div class="">
             <a  href="./stories/rohaenat-eniola.html" >
                 <img src="../images/students/Rohaenat Mustapha.png" alt="">
             <div>
@@ -304,9 +310,8 @@
                 <a class="storylink" href="./stories/rohaenat-eniola.html" ><b>Read Rohaenat's story -></b></a>
             </div>
             </a>
-        </div>
-       
-        <div class="story">
+        </div></div>
+          <div class="swiper-slide"><div class="">
             <a  href="./stories/opeyemi-balikis.html" >
                 <img src="../images/students/Balikis.png" alt="">
             <div>
@@ -317,33 +322,28 @@
                 <a class="storylink" href="./stories/opeyemi-balikis.html" ><b>Read Opeyemi's story -></b></a>
             </div>
             </a>
-        </div>
-        <div class="story">
-            <a  href="./stories/josephine-kayode.html" >
-                <img src="../images/students/Josephine.png" alt="">
-            <div>
-                <h5> Student Story</h5>
-              
-                    <p>"Unveiling the Possibilities of Tech, A Computer Science Graduate’s Journey" </p>
-               
-                <a class="storylink" href="./stories/josephine-kayode.html" ><b>Read Josephine's story -></b></a>
+        </div></div>
+          <div class="swiper-slide">
+            
+            <div class="">
+                <a  href="./stories/josephine-kayode.html" >
+                    <img src="../images/students/Josephine.png" alt="">
+                <div>
+                    <h5> Student Story</h5>
+                  
+                        <p>"Unveiling the Possibilities of Tech, A Computer Science Graduate’s Journey" </p>
+                   
+                    <a class="storylink" href="./stories/josephine-kayode.html" ><b>Read Josephine's story -></b></a>
+                </div>
+                </a>
             </div>
-            </a>
-        </div>
-        <!-- <div class="story">
-            <a  href="./stories/opeyemi-balikis.html" >
-                <img src="../images/students/Balikis.png" alt="">
-            <div>
-                <h5> Student Story</h5>
-              
-                    <p>"From a tech novice to a product designer" </p>
-               
-                <a class="storylink" href="./stories/opeyemi-balikis.html" ><b>Read Opeyemi's story -></b></a>
-            </div>
-            </a>
-        </div> -->
+          </div>
 
-    </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
       
 </section>
 
@@ -474,8 +474,9 @@
 
     
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://kit.fontawesome.com/0d761cbbd4.js" crossorigin="anonymous"></script>
 <script defer src="js/app.js"></script>
+<script defer src="js/swipper.js"></script>
 </body>
 </html>
