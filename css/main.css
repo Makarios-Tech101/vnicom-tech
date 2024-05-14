@@ -113,7 +113,6 @@ header {
   top: 0;
   left: 0;
   z-index: 5;
-  width: 100%;
 }
 header nav {
   display: flex;
@@ -127,7 +126,7 @@ header nav #logo a img {
   width: 70%;
 }
 header nav #menu {
-  width: 45%;
+  width: 60%;
   color: #ffffff;
 }
 header nav #menu #container {
@@ -1202,10 +1201,105 @@ footer #copyright p a {
   cursor: pointer;
 }
 
+.studentWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.studentWrapper .studentCard {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  width: 100%;
+  background-color: #003B65;
+}
+.studentWrapper .studentCard h3 {
+  font-size: 1.2rem;
+}
+.studentWrapper .studentCard p {
+  font-size: 1rem;
+  color: #bdbdbd !important;
+  font-weight: bold;
+}
+.studentWrapper .studentCard .imgWrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 250px;
+  overflow: hidden;
+}
+.studentWrapper .studentCard img {
+  display: block;
+  width: 70%;
+  height: 100%;
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.studentWrapper .imgWrapper:hover img {
+  transform: scale(1.1);
+}
+.studentWrapper .studentCardDetails {
+  padding: 40px;
+  background: linear-gradient(to top, #003B65, #003B65, #003B65, rgba(0, 0, 0, 0.5));
+  border-radius: 0 0 20px 20px;
+}
+.studentWrapper .studentCardDetails h3, .studentWrapper .studentCardDetails p {
+  color: white;
+}
+
+.stdInfoWrapper {
+  display: flex;
+  align-items: center;
+  background-color: #003B65;
+}
+.stdInfoWrapper h1, .stdInfoWrapper p {
+  color: white;
+}
+.stdInfoWrapper .stdImgCont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(189, 189, 189, 0.1);
+}
+.stdInfoWrapper .stdImgCont img {
+  max-width: 300px;
+  min-width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid white;
+}
+.stdInfoWrapper .dtlCont {
+  width: 100%;
+}
+
+.stdActionBtns {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+.stdActionBtns a {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid white;
+}
+.stdActionBtns a:nth-child(even) {
+  background-color: #003B65;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 th, td {
@@ -1252,4 +1346,15 @@ tr:hover {
   outline: none;
   border: 1px solid #003B65;
   border-radius: 3px;
+}
+
+@media screen and (max-width: 712px) {
+  .stdInfoWrapper {
+    flex-direction: column-reverse;
+  }
+  .stdInfoWrapper h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */

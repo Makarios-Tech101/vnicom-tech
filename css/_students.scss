@@ -1,8 +1,114 @@
+// Our Students page
+.studentWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+    
+    
+    
+    .studentCard{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 20px;
+        width: 100%;
+        background-color:#003B65;
+        h3{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 1rem;
+            color:  #bdbdbd !important;
+            font-weight: bold;
+        }
+        .imgWrapper{
+            display: flex;
+            position: relative;
+            // align-items: center;
+            justify-content: center;
+            height: 250px;
+            overflow: hidden;
+        }
+        img {
+            display: block;
+            width: 70%;
+            height: 100%;
+            cursor: pointer;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+          }
+      
+    }
+
+
+    
+    .imgWrapper:hover img {
+        transform: scale(1.1);
+        
+      }
+    .studentCardDetails{
+        padding: 40px;
+        background: linear-gradient(to top, #003B65, #003B65, #003B65, rgba(0,0,0, 0.5));
+        border-radius:0 0 20px 20px;
+        h3, p{
+            color: white;
+        }
+    }
+}
+
+// Student Details 
+.stdInfoWrapper{
+    display: flex;
+    align-items: center;
+    background-color: #003B65;
+    h1, p{
+        color: white;
+    }
+ 
+    .stdImgCont{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid white;
+        padding: 20px;
+        background-color: rgb(189, 189, 189, 0.1);
+        img{
+            max-width: 300px;
+            min-width: 300px;
+            object-fit: cover;
+            padding: 20px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            border: 1px solid white;
+        }
+    }
+    .dtlCont{
+        width: 100%;
+    }
+}
+.stdActionBtns{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    a{
+        background-color: white;
+        border-radius: 5px;
+        padding: 5px 10px;
+        border: 1px solid white;
+    }
+    a:nth-child(even){
+        background-color:#003B65;
+        border-radius: 5px;
+        border: 1px solid white;
+        color: white;
+        
+    }
+}
+
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 15px;
     
 }
 
@@ -50,3 +156,14 @@ tr:hover {
     }
 }
 
+
+@media screen and (max-width: 712px) {
+    .stdInfoWrapper{
+       flex-direction: column-reverse;
+       h1{
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        margin-top: 15px;
+       }
+    }
+}
