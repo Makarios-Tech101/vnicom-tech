@@ -1249,8 +1249,11 @@ footer #copyright p a {
 }
 
 .cohort {
+  padding-top: 20px;
+}
+.cohort h1 {
   margin-bottom: 20px;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .stdInfoWrapper {
@@ -1363,6 +1366,9 @@ tr:hover {
     margin-top: 15px;
   }
   .cohort {
+    padding-top: 20px;
+  }
+  .cohort h1 {
     margin-bottom: 20px;
     font-size: 1.5rem;
   }
