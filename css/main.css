@@ -1248,6 +1248,11 @@ footer #copyright p a {
   color: white;
 }
 
+.cohort {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
 .stdInfoWrapper {
   display: flex;
   align-items: center;
@@ -1356,5 +1361,9 @@ tr:hover {
     font-size: 1.8rem;
     margin-bottom: 15px;
     margin-top: 15px;
+  }
+  .cohort {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=main.css.map */
