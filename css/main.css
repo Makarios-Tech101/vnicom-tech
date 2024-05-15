@@ -1216,7 +1216,7 @@ footer #copyright p a {
   font-size: 1.2rem;
 }
 .studentWrapper .studentCard p {
-  font-size: 1rem;
+  font-size: 0.9rem !important;
   color: #bdbdbd !important;
   font-weight: bold;
 }
@@ -1224,7 +1224,7 @@ footer #copyright p a {
   display: flex;
   position: relative;
   justify-content: center;
-  height: 250px;
+  height: 350px;
   overflow: hidden;
 }
 .studentWrapper .studentCard img {
@@ -1246,6 +1246,12 @@ footer #copyright p a {
 }
 .studentWrapper .studentCardDetails h3, .studentWrapper .studentCardDetails p {
   color: white;
+}
+.studentWrapper .studentCardDetails p {
+  font-size: 0.8rem;
+}
+.studentWrapper .studentCardDetails h3 {
+  margin-bottom: 10px;
 }
 
 .cohort {
