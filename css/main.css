@@ -1291,6 +1291,9 @@ footer #copyright p a {
 .stdInfoWrapper .dtlCont {
   width: 100%;
 }
+.stdInfoWrapper .dtlCont .goal {
+  color: #ffbf00;
+}
 
 .stdActionBtns {
   display: flex;
