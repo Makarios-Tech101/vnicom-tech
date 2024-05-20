@@ -10,7 +10,7 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         border-radius: 20px;
         width: 100%;
-        background-color:#003B65;
+        // background-color:#003B65;
         h3{
             font-size: 1.2rem;
 
@@ -46,9 +46,16 @@
         
       }
     .studentCardDetails{
-        padding: 40px;
-        background: linear-gradient(to top, #003B65, #003B65, #003B65, rgba(0,0,0, 0.5));
+        padding-left: 40px;
+        justify-content: center;
+        background-color: #003B65;
+        // background: linear-gradient(to top, #003B65, #003B65, #003B65, rgba(0,0,0, 0.5));
         border-radius:0 0 20px 20px;
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+
+        // height: 150px;
         h3, p{
             color: white;
         }
@@ -72,9 +79,9 @@
 .stdInfoWrapper{
     display: flex;
     align-items: center;
-    background-color: #003B65;
+    // background-color: #003B65;
     h1, p{
-        color: white;
+        // color: white;
     }
  
     .stdImgCont{
@@ -83,7 +90,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        // border: 1px solid white;
+        // border: 1px solid #003B65;
         padding: 20px;
         background-color: rgb(189, 189, 189, 0.1);
         img{
@@ -107,9 +114,10 @@
     margin-top: 20px;
     gap: 10px;
     a{
-        background-color: white;
+        background-color: $darkBlue;
         border-radius: 5px;
         padding: 5px 10px;
+        color: white;
         border: 1px solid white;
     }
     a:nth-child(even){

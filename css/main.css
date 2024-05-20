@@ -1210,7 +1210,6 @@ footer #copyright p a {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 20px;
   width: 100%;
-  background-color: #003B65;
 }
 .studentWrapper .studentCard h3 {
   font-size: 1.2rem;
@@ -1240,9 +1239,13 @@ footer #copyright p a {
   transform: scale(1.1);
 }
 .studentWrapper .studentCardDetails {
-  padding: 40px;
-  background: linear-gradient(to top, #003B65, #003B65, #003B65, rgba(0, 0, 0, 0.5));
+  padding-left: 40px;
+  justify-content: center;
+  background-color: #003B65;
   border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
 }
 .studentWrapper .studentCardDetails h3, .studentWrapper .studentCardDetails p {
   color: white;
@@ -1265,10 +1268,6 @@ footer #copyright p a {
 .stdInfoWrapper {
   display: flex;
   align-items: center;
-  background-color: #003B65;
-}
-.stdInfoWrapper h1, .stdInfoWrapper p {
-  color: white;
 }
 .stdInfoWrapper .stdImgCont {
   width: 100%;
@@ -1301,9 +1300,10 @@ footer #copyright p a {
   gap: 10px;
 }
 .stdActionBtns a {
-  background-color: white;
+  background-color: #003B65;
   border-radius: 5px;
   padding: 5px 10px;
+  color: white;
   border: 1px solid white;
 }
 .stdActionBtns a:nth-child(even) {
