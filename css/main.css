@@ -1241,7 +1241,7 @@ footer #copyright p a {
 .studentWrapper .studentCardDetails {
   padding-left: 40px;
   justify-content: center;
-  background-color: #003B65;
+  background: linear-gradient(to top, #003B65, #003B65, #003B65, rgba(0, 0, 0, 0.9));
   border-radius: 0 0 20px 20px;
   display: flex;
   flex-direction: column;
