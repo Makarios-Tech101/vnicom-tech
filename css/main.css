@@ -1228,7 +1228,7 @@ footer #copyright p a {
 }
 .studentWrapper .studentCard img {
   display: block;
-  width: 70%;
+  width: 100%;
   height: 100%;
   cursor: pointer;
   -o-object-fit: cover;
