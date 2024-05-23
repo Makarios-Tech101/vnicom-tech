@@ -1203,12 +1203,13 @@ footer #copyright p a {
 
 .studentWrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  row-gap: 40px;
 }
 .studentWrapper .studentCard {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 20px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  border-radius: 7px;
   width: 100%;
 }
 .studentWrapper .studentCard h3 {
@@ -1223,40 +1224,36 @@ footer #copyright p a {
   display: flex;
   position: relative;
   justify-content: center;
-  height: 350px;
+  height: auto;
+  width: 100%;
   overflow: hidden;
 }
 .studentWrapper .studentCard img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 300px;
   cursor: pointer;
   -o-object-fit: cover;
      object-fit: cover;
   transition: transform 0.3s ease;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 .studentWrapper .imgWrapper:hover img {
   transform: scale(1.1);
 }
 .studentWrapper .studentCardDetails {
-  padding-left: 40px;
+  padding-left: 20px;
   justify-content: center;
-  background: linear-gradient(to top, #003B65, #003B65, #003B65, rgba(1, 3, 54, 0.9));
   border-radius: 0 0 20px 20px;
   display: flex;
   flex-direction: column;
-  height: 150px;
-}
-.studentWrapper .studentCardDetails h3, .studentWrapper .studentCardDetails p {
-  color: white;
+  height: 120px;
 }
 .studentWrapper .studentCardDetails p {
   font-size: 0.8rem;
+  color: #003B65 !important;
 }
-.studentWrapper .studentCardDetails h3 {
-  margin-bottom: 10px;
-}
-
 .cohort {
   padding-top: 20px;
 }
@@ -1366,6 +1363,16 @@ tr:hover {
   border-radius: 3px;
 }
 
+@media (max-width: 900px) {
+  .studentWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .studentWrapper {
+    grid-template-columns: 1fr;
+  }
+}
 @media screen and (max-width: 712px) {
   .stdInfoWrapper {
     flex-direction: column-reverse;
