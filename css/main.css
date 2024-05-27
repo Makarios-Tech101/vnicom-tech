@@ -1210,7 +1210,6 @@ footer #copyright p a {
 .studentWrapper .studentCard {
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   border-radius: 7px;
-  width: 100%;
 }
 .studentWrapper .studentCard h3 {
   font-size: 1.2rem;
@@ -1220,21 +1219,13 @@ footer #copyright p a {
   color: #bdbdbd !important;
   font-weight: bold;
 }
-.studentWrapper .studentCard .imgWrapper {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-}
 .studentWrapper .studentCard img {
   display: block;
   width: 100%;
-  height: 300px;
+  height: 400px;
   cursor: pointer;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
   transition: transform 0.3s ease;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
