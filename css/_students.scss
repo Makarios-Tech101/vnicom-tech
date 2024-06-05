@@ -36,7 +36,7 @@
             height: 300px;
             // max-height: 700px;
             cursor: pointer;
-            object-fit:fill;
+            object-fit:cover;
             transition: transform 0.3s ease;
             border-top-left-radius: 7px;
             border-top-right-radius: 7px;
@@ -195,7 +195,15 @@ tr:hover {
         grid-template-columns: 1fr 1fr;
     }
 }
-
+@media screen and (min-width: 1496px){
+    .studentCard{
+       .imgWrapper img{
+         
+            height: 500px;
+         
+        }
+    }
+}
 @media (max-width: 600px) {
     .studentWrapper {
         grid-template-columns: 1fr;
@@ -218,3 +226,4 @@ tr:hover {
       }
     }
 }
+
