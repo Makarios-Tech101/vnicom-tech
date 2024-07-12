@@ -1265,7 +1265,7 @@ footer #copyright p a {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: rgb(0, 59, 101);
+  background-color: rgba(0, 59, 101, 0.02);
 }
 .stdInfoWrapper .stdImgCont img {
   max-width: 300px;
@@ -1273,7 +1273,7 @@ footer #copyright p a {
   -o-object-fit: cover;
      object-fit: cover;
   padding: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 59, 101, 0.5) 0px 2px 8px 0px;
   border: 1px solid white;
 }
 .stdInfoWrapper .dtlCont {
