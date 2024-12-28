@@ -347,14 +347,6 @@ main #intro #opening-soon a {
   position: relative;
   padding-bottom: 30px;
 }
-#programme #programmes article .priceBadge {
-  background-color: #003B65;
-  color: white;
-  text-align: center;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-}
 #programme #programmes article .img-wrapper {
   width: 100%;
   height: 250px;
