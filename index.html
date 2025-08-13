@@ -1,499 +1,787 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Vnicom Tech Hub</title>
-    <link rel="icon" href="images/favicon.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <meta name="keywords" content="training center in magboro ogun state" />
-    <link rel="stylesheet" href="css/main.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome | Vnicom Tech Hub</title>
+        <link rel="icon" href="images/favicon.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <meta name="keywords" content="training center in magboro ogun state" />
+        <link rel="stylesheet" href="css/main.css">
+    
+    
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="images//logo.png" alt="">
+                    </a>
+                </div>
 
-  
-</head>
-<body>
-<header>
-    <nav>
-        <div id="logo">
-            <a href="index.html">
-                <img src="images//logo.png" alt="">
-            </a>
-        </div>
+                <div id="menu" class="">
+                    <div id="container">
+                        <a href="/index.html">
+                            <img src="images//logo-white.svg" alt="">
+                        </a>
+                        <button id="close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    
+                    <ul>
+                        <li class="close">
+                            <a href="/index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="close">
+                            <a href="/index.html#programme">
+                                Our Programmes
+                            </a>
+                        </li>
+                        <li class="close">
+                            <a href="/index.html#stories">
+                                Testimonials
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Our Students &#x2BC6;</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/students/alumni.html">Alumni</a></li>
+                                <li><a href="/students/present-cohort.html">Present Cohort</a></li>
+                            </ul>
+                        </li>
+                        <li class="close">
+                            <a href="/index.html#about-us">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="close">
+                            <a href="mailto:training@vnicomhub.com" id="contact-us">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-        <div id="menu" class="">
-            <div id="container">
-                <a href="index.html">
-                    <img src="images//logo-white.svg" alt="">
-                </a>
-                <button id="close">
-                    <i class="fa-solid fa-xmark"></i>
+                <button id="toggle-nav">
+                    <i class="fa-solid fa-bars"></i>
                 </button>
-            </div>
-            
-            <ul>
-                <li class="close"><a href="index.html">Home</a></li>
-                <li class="close"><a href="index.html#programme">Our Programmes</a></li>
-                <li class="close"><a href="index.html#stories">Testimonials</a></li>
-                <li class="close"><a href="/students/index.html">Our Students</a></li>
-                <li class="close"><a href="index.html#about-us">About Us</a></li>
-                <li class="close"><a href="mailto:training@vnicomhub.com">Contact Us</a></li>
-            </ul>
-        </div>
+            </nav>
+        </header>
 
-        <button id="toggle-nav">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-    </nav>
-</header>
+        <!-- <div id="invitation-container" class="invitation-container">
+            <span id="close-btn" onclick="closeInvitation()">×</span>
+            <h2>Join our Slack Channel</h2>
+            <p id="invitation-text">You're invited to join our tech community.</p>
+            <a id="join-btn" onclick="closeInvitation()" href="https://join.slack.com/t/vnicomhub/shared_invite/zt-27cfjz4vp-2fuQoE7rWNd58bWE0RTQUA" target="_blank">Join Now</a>
+        </div> -->
+        <a id="banner" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform">
+            Registration ongoing! 🎉🎊🎉 — click here to enroll now</a>
+        <main id="welcome">
+            <div id="intro">
+                <h1>
+                    <span>New to Software Engineering?</span> Kickstart your tech career.
+                </h1>
 
-<div id="invitation-container" class="invitation-container">
-    <span id="close-btn" onclick="closeInvitation()">×</span>
-    <h2>Join our Slack Channel</h2>
-    <p id="invitation-text">You're invited to join our tech community.</p>
-    <a id="join-btn" onclick="closeInvitation()" href="https://join.slack.com/t/vnicomhub/shared_invite/zt-27cfjz4vp-2fuQoE7rWNd58bWE0RTQUA" target="_blank">Join Now</a>
-</div>
-<a id="banner" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform">
-    Registration ongoing! 🎉🎊🎉 — click here to enroll now</a>
-<main id="welcome">
-    <div id="intro">
-        <h1>
-            <span>New to Software Engineering?</span> Kickstart your tech career.
-        </h1>
+                <p>Learn highly-sought after tech skills with vnicom tech hub.</p>
 
-        <p>Learn highly-sought after tech skills with vnicom tech hub.</p>
-
-        <a href="index.html#programme" class="btn">
-            Explore all programmes
-        </a>
-
-        <div id="opening-soon">
-            class will be starting soon 
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform">Enroll now <i class="fa-solid fa-arrow-right-long"></i></a>
-        </div>
-    </div>
-</main>
-
-<section id="our-story">
-    <div id="image">
-        <img src="images/why-us.jpg" alt="">
-    </div>
-    <div id="intro">
-        <h2>
-            Are You Ready <br> For The Future
-        </h2>
-
-        <p>
-            The widespread application of Information and Communication Technology (ICT) across virtually all aspects of society highlights a future deeply reliant on technology. From smart devices enhancing everyday living in modern homes to the emergence of autonomous vehicles revolutionizing transportation, technology is reshaping the world around us. At Vnicom Tech Hub, we empower you to thrive in this dynamic landscape by offering training in some of the most sought-after IT skills. Our programs are designed not only to kickstart your IT career but also to provide you with the expertise to bring your own innovative ideas and visions to life, ensuring you remain at the forefront of technological advancement.
-        </p>
-
-        <!--<a href="#" class="btn">Read our story</a>-->
-    </div>
-</section>
-
-<section id="programme">
-    <div id="intro">
-        <h2>Choose a Programme</h2>
-        <p>Find a programme that you like and register</p>
-    </div>
-
-    <div id="programmes">
-        <article>
-            <div class="img-wrapper">
-                <img src="images/programmes/frontend.png" alt="">
-            </div>
-            <div class="content">
-                <div class="bagde"><span>Registration ongoing.</span></div> 
-                <h3>Front End Development</h3>
-                <p>
-                    Front-end engineers work with designers to create clean, beautiful, functional and fast websites. 
-                    This programme will teach you everything you need to know to become a front end developer.
-                </p>
-                <a href="courses/front-end-web-development.html" class="join">View more
-                    <i class="fa-solid fa-arrow-right-long"></i>
+                <a href="index.html#programme" class="btn">
+                    Explore all programmes
                 </a>
-            </div>
-            <!-- <p class="priceBadge">
-                ₦ 90,000
-            </p> -->
-        </article>
 
-        <article>
-            <div class="img-wrapper">
-                <img src="images/programmes/backend.png" alt="">
-            </div>
-            <div class="content">
-                <div class="bagde"><span>Registration ongoing.</span></div>
-                <h3>Fullstack Web Development</h3>
-                <p>
-                    Full-stack engineers build and integrate both server-side and frontend components. This program teaches backend development using C# and .NET, along with HTML, CSS, and JavaScript for frontend integration.
-
-                </p>
-                <a href="./courses/fullstack.html" class="join">View more
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-            </div>
-            <!-- <p class="priceBadge">
-                ₦ 210,000
-            </p> -->
-        </article>
-
-        <article>
-            <div class="img-wrapper">
-                <img src="images/programmes/coding.jpg" alt="">
-            </div>
-            <div class="content">
-                <div class="bagde"><span>Coming soon </span></div>
-                <h3>Python</h3>
-                <p>
-                    Python has become one of the most popular programming languages around the world.
-                     It consistently outranks other languages in terms of job availability. This course will take you from newbie to pro.
-                </p>
-                <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" class="join">Enroll now
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a> -->
-                <a href="../courses/python.html" class="join">View more
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-            </div>
-        </article>
-
-        <article>
-            <div class="img-wrapper">
-                <img src="images/programmes/android.png" alt="">
-            </div>
-            <div class="content">
-                <div class="bagde"><span>Registration ongoing.</span></div>
-                <h3>Mobile App Development</h3>
-                <p>
-                    This course will teach you how to develop native Cross-Platform iOS and Android Apps Using Flutter.
-
-                </p><br>
-                <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform"  class="join">Enroll now
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a> -->
-                <a href="./courses/mobileappdevelopment.html"  class="join">Enroll now
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-            </div>
-            <!-- <p class="priceBadge">
-                ₦ 150,000
-            </p> -->
-        </article>
-
-        <article>
-            <div class="img-wrapper">
-                <img src="images/programmes/data.png" alt="">
-            </div>
-            <div class="content">
-                <div class="bagde"><span>Registration ongoing.</span></div>
-                <h3>Data Science</h3>
-                <p>
-                    Venturing into data analysis? we've got your covered.
-                     This course teaches both exploratory and confirmatory data analysis using python 
-                </p>
-                <a href="./courses/datascience.html"  class="join">View more
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-            </div>
-            <!-- <p class="priceBadge">
-                ₦ 210,000
-            </p> -->
-        </article>
-
-        <article>
-            <div class="img-wrapper">
-                <img src="images/programmes/uiux.png" alt="">
-            </div>
-            <div class="content">
-                <div class="bagde"><span>Registration ongoing.</span></div>
-                <h3>Product / Graphic Design</h3>
-                <p>
-                    In this course, you will learn how to use Figma for Mobile and Web Design and create
-                     beautiful User Interface and robust User Experience design.
-
-                </p>
-                <a href="./courses/product-design.html" class="join">View more
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-            </div>
-            <!-- <p class="priceBadge">
-                ₦ 110,000
-            </p> -->
-        </article>
-
-        <!-- <article>
-            <div class="img-wrapper">
-                <img src="images/programmes/hosting.png" alt="">
-            </div>
-            <div class="content">
-                <div class="bagde"><span>Registration On!</span></div>
-                <h3>Introduction to Database</h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, autem!
-                </p>
-                <a href="" class="join">Join waiting list
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-            </div>
-        </article> -->
-
-        <!-- <article>
-            <div class="img-wrapper">
-                <img src="images/programmes/statistic.png" alt="">
-            </div>
-            <div class="content">
-                <div class="bagde"><span>Registration On!</span></div>
-                <h3>Statistical Programming with Python</h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, autem!
-                    Lorem, ipsum dolor sit amet consectetur!
-                </p>
-                <a href="" class="join">Join waiting list
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-            </div>
-        </article> -->
-    </div>
-</section>
-
-<section id="about-us">
-   
-    
-        <h2>
-            About Us
-        </h2>
-
-        <p>
-            Welcome to Vnicom Tech Hub, where innovation meets opportunity!
-            At Vnicom Tech Hub, we are dedicated to empowering the youth with the requisite ICT knowledge to jumpstart their careers or bring their innovative ideas to life. Our mission is to bridge the gap between technology and ambition by equipping individuals and businesses with cutting-edge resources, expert guidance, and real-world opportunities to thrive in today’s fast-paced, tech-driven world.
-            Join us on a journey of learning, creativity, and transformation as we shape the future, one idea at a time!
-
-        </p>   
-
-</section>
-<section id="why-section">
-    <h2>
-        Why Vnicom Tech Hub?
-    </h2>
-    <div class="gallery">
-        <div class="box">
-                <img src="images/std.jpg">
-                <p> 
-                    Vibrant Support Community
-                </p>
-        </div>
-        <div class="box">
-                <img src="images/env.jpg">
-                <p>
-                    Capstone Project
-                </p>
-        </div>
-        <div class="box">
-                <img src="images/teamwork.jpeg">
-                <p> Internship Opportunity</p>
-         </div>
-    </div>    
-</section>
-
-<section id="stories"  class="alumni ">
-    <h2>
-        Alumni Stories
-    </h2>
-    <div #swiperRef="" class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="">
-                <a  href="./stories/osaranmaye-tomiwa.html" >
-                    <img src="../images/students/tomiwa.png" alt="">
-                <div>
-                    <h5> Student Story</h5>
-                  
-                        <p>" Osaranmaye Tomiwa: frontend developer" </p>
-                   
-                    <a class="storylink" href="./stories/osaranmaye-tomiwa.html" ><b>Read Tomiwa's story -></b></a>
+                <div id="opening-soon">
+                    <!-- class will be starting soon  -->
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform">Enroll now <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
-                </a>
             </div>
-          </div>
-          <div class="swiper-slide">  <div class="">
-            <a  href="./stories/rohaenat-eniola.html" >
-                <img src="../images/students/Rohaenat Mustapha.png" alt="">
-            <div>
-                <h5> Student Story</h5>
-              
-                    <p>"Navigating IT Success: Rahaenat Mustapha Eniola's Learning Journey" </p>
-               
-                <a class="storylink" href="./stories/rohaenat-eniola.html" ><b>Read Rohaenat's story -></b></a>
+        </main>
+
+        <section id="our-story">
+            <div id="image">
+                <img src="images/why-us.jpg" alt="">
             </div>
-            </a>
-        </div></div>
-          <div class="swiper-slide"><div class="">
-            <a  href="./stories/opeyemi-balikis.html" >
-                <img src="../images/students/Balikis.png" alt="">
-            <div>
-                <h5> Student Story</h5>
-              
-                    <p>"From a tech novice to a product designer" </p>
-               
-                <a class="storylink" href="./stories/opeyemi-balikis.html" ><b>Read Opeyemi's story -></b></a>
+            <div id="intro">
+            <h2>
+                The Future Is Here, <br> Are You Ready For The Future
+                </h2>
+
+                <p>
+                    The widespread application of Information and Communication Technology (ICT) across virtually all aspects of society highlights a future deeply reliant on technology. From smart devices enhancing everyday living in modern homes to the emergence of autonomous vehicles revolutionizing transportation, technology is reshaping the world around us. At Vnicom Tech Hub, we empower you to thrive in this dynamic landscape by offering training in some of the most sought-after IT skills. Our programs are designed not only to kickstart your IT career but also to provide you with the expertise to bring your own innovative ideas and visions to life, ensuring you remain at the forefront of technological advancement.
+                </p>
+
+                <!--<a href="#" class="btn">Read our story</a>-->
             </div>
-            </a>
-        </div></div>
-          <div class="swiper-slide">
-            
-            <div class="">
-                <a  href="./stories/josephine-kayode.html" >
-                    <img src="../images/students/Josephine.png" alt="">
-                <div>
-                    <h5> Student Story</h5>
-                  
-                        <p>"Unveiling the Possibilities of Tech, A Computer Science Graduate’s Journey" </p>
-                   
-                    <a class="storylink" href="./stories/josephine-kayode.html" ><b>Read Josephine's story -></b></a>
+        </section>
+
+        <section id="programme">
+            <div id="intro">
+                <h2>Choose a Programme</h2>
+                <p>Find a programme that you like and register</p>
+            </div>
+
+            <div id="programmes">
+                <article>
+                    <div class="img-wrapper">
+                        <img src="images/programmes/frontend.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="bagde"><span>Registration ongoing.</span></div> 
+                        <h3>Front End Development</h3>
+                        <p>
+                            Front-end engineers work with designers to create clean, beautiful, functional and fast websites. 
+                            This programme will teach you everything you need to know to become a front end developer.
+                        </p>
+                        <a href="courses/front-end-web-development.html" class="join">View more
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                    <!-- <p class="priceBadge">
+                        ₦ 90,000
+                    </p> -->
+                </article>
+
+                <article>
+                    <div class="img-wrapper">
+                        <img src="images/programmes/backend.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="bagde"><span>Registration ongoing.</span></div>
+                        <h3>Fullstack Web Development</h3>
+                        <p>
+                            Full-stack engineers build and integrate both server-side and frontend components. This program teaches backend development using C# and .NET, along with HTML, CSS, and JavaScript for frontend integration.
+
+                        </p>
+                        <a href="./courses/fullstack.html" class="join">View more
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                    <!-- <p class="priceBadge">
+                        ₦ 210,000
+                    </p> -->
+                </article>
+
+                <article>
+                    <div class="img-wrapper">
+                        <img src="images/programmes/coding.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="bagde"><span>Registration ongoing </span></div>
+                        <h3>Front End Web With React/ NextJS</h3>
+                        <p>
+                            Frontend engineers build interactive, user-friendly web interfaces. This program teaches modern frontend development using ReactJS and Next.js, along with HTML, CSS, and JavaScript to create fast, responsive websites
+                        </p>
+                        <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" class="join">Enroll now
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a> -->
+                        <a href="../courses/react-and-next.html" class="join">View more
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </article>
+                <!-- <article>
+                    <div class="img-wrapper">
+                        <img src="images/programmes/coding.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="bagde"><span>Coming soon </span></div>
+                        <h3>Python</h3>
+                        <p>
+                            Python has become one of the most popular programming languages around the world.
+                            It consistently outranks other languages in terms of job availability. This course will take you from newbie to pro.
+                        </p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" class="join">Enroll now
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a> 
+                        <a href="../courses/python.html" class="join">View more
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </article> -->
+
+                <article>
+                    <div class="img-wrapper">
+                        <img src="images/programmes/android.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="bagde"><span>Registration ongoing.</span></div>
+                        <h3>Mobile App Development</h3>
+                        <p>
+                            This course will teach you how to develop native Cross-Platform iOS and Android Apps Using Flutter.
+
+                        </p><br>
+                        <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform"  class="join">Enroll now
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a> -->
+                        <a href="./courses/mobileappdevelopment.html"  class="join">Enroll now
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                    <!-- <p class="priceBadge">
+                        ₦ 150,000
+                    </p> -->
+                </article>
+
+                <article>
+                    <div class="img-wrapper">
+                        <img src="images/programmes/data.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="bagde"><span>Registration ongoing.</span></div>
+                        <h3>Data Science</h3>
+                        <p>
+                        In this course, you will master both 
+                        exploratory and predictive data 
+                        analysis using Python, build machine 
+                        learning models, and learn how to 
+                        interpret results for real-world 
+                        decision-making.
+                        </p>
+                        <a href="./courses/datascience.html"  class="join">View more
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                    <!-- <p class="priceBadge">
+                        ₦ 210,000
+                    </p> -->
+                </article>
+
+                <article>
+                    <div class="img-wrapper">
+                        <img src="images/programmes/uiux.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="bagde"><span>Registration ongoing.</span></div>
+                        <h3>Product / Graphic Design</h3>
+                        <p>
+                            In this course, you will learn how to use Figma for Mobile and Web Design and create
+                            beautiful User Interface and robust User Experience design.
+
+                        </p>
+                        <a href="./courses/product-design.html" class="join">View more
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                    <!-- <p class="priceBadge">
+                        ₦ 110,000
+                    </p> -->
+                </article>
+
+                <!-- <article>
+                    <div class="img-wrapper">
+                        <img src="images/programmes/hosting.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="bagde"><span>Registration On!</span></div>
+                        <h3>Introduction to Database</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, autem!
+                        </p>
+                        <a href="" class="join">Join waiting list
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </article> -->
+
+                <!-- <article>
+                    <div class="img-wrapper">
+                        <img src="images/programmes/statistic.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="bagde"><span>Registration On!</span></div>
+                        <h3>Statistical Programming with Python</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, autem!
+                            Lorem, ipsum dolor sit amet consectetur!
+                        </p>
+                        <a href="" class="join">Join waiting list
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </article> -->
+            </div>
+        </section>
+         <section class="aboutus-section" id="about-us">
+               <div class="aboutus-container">
+                  <div class="aboutus-content">
+                    <h2>About Us</h2>
+                      <p>
+                          Welcome to Vnicom Tech Hub, 
+                          where innovation meets opportunity! 
+                          At Vnicom Tech Hub, we are dedicated to 
+                          empowering the youth with the requisite 
+                          ICT knowledge to jumpstart their careers or 
+                          bring their innovative ideas to life. 
+                      </p>
+                      <p>
+                        Our mission is to bridge the gap 
+                        between technology and ambition by 
+                        equipping individuals and businesses 
+                        with cutting-edge resources, expert 
+                        guidance, and real-world opportunities 
+                        to thrive in today's fast-paced, 
+                        tech-driven world. 
+                      </p>
+                      <p>
+                        Join us on a journey of learning, 
+                        creativity, and transformation as 
+                        we shape the future, one idea at a 
+                        time!
+                      </p>
+                  </div>
+                  <div class="aboutus-image">
+                     <img src="/images/grid-img4.jpg">
+                  </div>
+               </div>
+            </section>
+             <section class="whychoose-section">
+              <div class="whychoose-first-container">
+                <h3>
+                  Empowering You to Build a Tech Career that Thrives
+                </h3>
+                <p>
+                  At Vnicom Tech Hub, we offer industry-focused, hands-on training designed to help beginners and career changers break into tech with confidence. 
+                </p>
+              </div>
+            </section>
+            <section>
+                  <div class="whychoose-second-container">
+                <div class="whychoose-second-container-title">
+                  <h3>Accessible Learning. <span class="practical-skill">Practical Skills</span> . Real Growth.</h3>
+                  <p>Our programmes are designed to fit your life and your goals</p>
                 </div>
-                </a>
-            </div>
-          </div>
+                
+                <div class="whychoose-grid" >
+                  <div class="whychoose-card" id="whychoose-card-blue">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 12 12"><path fill="#1C3D90" d="M4.25 3.25a1.75 1.75 0 1 1 3.5 0a1.75 1.75 0 0 1-3.5 0m-2 2.25a1.25 1.25 0 1 0 0-2.5a1.25 1.25 0 0 0 0 2.5M11 4.25a1.25 1.25 0 1 1-2.5 0a1.25 1.25 0 0 1 2.5 0M5.25 6C4.56 6 4 6.56 4 7.25V8.5a2 2 0 1 0 4 0V7.25C8 6.56 7.44 6 6.75 6zM3 7.25c0-.289.054-.565.154-.818l-1.231.33a1.25 1.25 0 0 0-.884 1.53l.194.725a2 2 0 0 0 2.45 1.414l.017-.005A3 3 0 0 1 3 8.5zM9 8.5c0 .733-.263 1.405-.7 1.927l.016.004a2 2 0 0 0 2.449-1.414l.194-.725a1.25 1.25 0 0 0-.884-1.53l-1.228-.33c.099.254.153.53.153.818z"/>
+                      </svg>
+                      <h4>Vibrant Support Community</h4>
+                      <p>
+                        Join a community of learners, 
+                        mentors, and industry professionals. 
+                        At Vnicom Tech Hub, you’re never learning alone: 
+                        connect with peers, share ideas, get guidance, 
+                        and grow your network as you build your skills.
+                      </p>
+                  </div>
+                  <div class="whychoose-card" id="whychoose-card-yellow">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24"><path fill="#F5B800" d="m12 11.925l-1.7 1.3q-.15.125-.3.013t-.1-.288l.65-2.1l-1.75-1.4q-.125-.125-.075-.287T8.95 9h2.15l.65-2.05q.05-.175.25-.175t.25.175L12.9 9h2.125q.175 0 .238.163t-.063.287l-1.775 1.4l.65 2.1q.05.175-.1.288t-.3-.013zM12 21l-4.675 1.55q-.5.175-.913-.125t-.412-.8v-6.35q-.95-1.05-1.475-2.4T4 10q0-3.35 2.325-5.675T12 2t5.675 2.325T20 10q0 1.525-.525 2.875T18 15.275v6.35q0 .5-.413.8t-.912.125zm0-5q2.5 0 4.25-1.75T18 10t-1.75-4.25T12 4T7.75 5.75T6 10t1.75 4.25T12 16"/>
+                      </svg>
+                      <h4>Capstone Project</h4>
+                      <p>
+                        Put your skills to test 
+                        with a real-world capstone project. 
+                        Each programme culminates in a hands-on 
+                        project that challenges you to apply what 
+                        you've learned, solve real problems, 
+                        and build a standout portfolio piece.
+                      </p>
+                  </div>
+                  <div class="whychoose-card" id="whychoose-card-purple">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24"><path fill="#281A6A" fill-rule="evenodd" d="M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3M9 4h2v5h9v2h-9v9H9v-9H4V9h5z" clip-rule="evenodd"/>
+                      </svg>
+                      <h4>Internship Opportunities</h4>
+                      <p>
+                        Gain industry experience, 
+                        strengthen your resume, 
+                        and transition smoothly 
+                        from the classroom to 
+                        real-world tech environments. 
+                        Our internships are designed to 
+                        help you become job-ready and 
+                        career confident.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="testimonial-section" id="stories">
+                <div class="testimonial-title">
+                   <h2>Some of Our <span class="highlight">Alumni</span> Stories</h2>
+                   <p>Explore the success stories of individuals who have advanced their careers through our training programmes. </p>
+                </div>
+                <div class="testimonial-wrapper">
 
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-      
-</section>
-
-
-<section id="why-us">
-    <div id="intro">
-        <h2>Let's Help You<br>Prepare for The Future</h2>
-        <p>
-            Learn new in-demand skills at Vnicom Tech Hub best-in-class training. 
-            We provide an enabling environment and  opportunity for you to kickstart and grow your IT career.
-
-
-        </p>
-    </div>
-    <div id="why">
-        <article>
-            <img src="images/why/learn.svg" alt="">
-            <div>
-                <h3>Gain a skill</h3>
-                <p>
-                    Want to earn a new skill or add to your existing tech skills? 
-                    join us today at Vnicom Tech Hub and discover new possibilities.
-
-                </p>
-            </div>
-        </article>
-
-        <article>
-                <img src="images/why/carrer.svg" alt="">
-            <div>
-                <h3>Build a career</h3>
-                <p>
-                    Learn top-rated job focused skills in the field of software engineering and become employable within a year.
-
-                </p>
-            </div>
-        </article>
-
-        <article>
-                <img src="images/why/team.svg" alt="">
-            <div>
-                <h3>Level up your team's skills</h3>
-                <p>
-                    Have you identified skill gaps in your team? Reach out to us today to discuss how Vnicom Tech Hub can help.
-
-                </p>
-            </div>
-        </article>
-
-        <article>
-                <img src="images/why/hire.svg" alt="">
-            <div>
-                <h3>Hire our Grads</h3>
-                <p>
-                    Looking for talents to help your business or startup grow. Reach out to us and hire from our amazing pool of talents.
-
-                </p>
-            </div>
-        </article>
-    </div>
-</section>
-
-<!-- <section id="prepare">
-    <div id="intro">
-        <h2>
-            Get Ready <br> For the Future
-        </h2>
-
-        <p>
-            As the name suggests, AltSchool Africa is different from the traditional institutions. We are a school for individuals looking to gain technical skills and kickstart a career in Software Engineering. AltSchool Africa takes a non-traditional approach to learning by teaching courses directly connected with the selected track .
-        </p>
-
-        <a href="index.html#programme" class="btn">Pick a Programme</a>
-    </div>
-</section> -->
-
-<footer id="footer">
-    <div id="company">
-        <p>
-            Learn new in-demand skills at Vnicom Tech Hub best-in-class training.
-        </p>
-    </div>
-
-    <div id="pages">
-        <h3 class="small">PAGES</h3>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#programme">Our Programmes</a></li>
-            <li><a href="index.html#about-us">About Us</a></li>
-            <li><a href="mailto:training@vnicomhub.com">Contact Us</a></li>
-        </ul>
-    </div>
-
-    <div id="training">
-        <h3 class="small">TRAINING</h3>
-        <ul>
+                  <div class="testimonial-content">
+                      <div class="avatars-row">
+                         <img src="/images/students/josephine.jpg" alt="Person 1" class="avatar active">
+                         <img src="/images/students/Eniiyi.jpeg" alt="Person 2" class="avatar">
+                         <img src="/images/students/balikis.jpg" alt="Person 3" class="avatar">
+                         <img src="/images/students/mayowa.jpg" alt="Person 4" class="avatar">
+                         <img src="/images/students/feranmi.jpeg" alt="Person 5" class="avatar">
+                      </div>
+                      <div>
+                            <p class="quote" >
+                                “My training experience with Vnicom Tech Hub was informative and valuable. The instructors at Vnicom Tech Hub provided me with a solid foundation in design principles, techniques, and industry best practices”
+                            </p>
+                      </div>
+                      <div class="author">
+                            <strong class="testimonial-name">Josephine</strong>
+                            <p class="testimonial-role">Product Designer at Vnicom Solutions</p>
+                      </div>
+                      <div class="arrows">
+                            <button class="prev-btn" >&#8592;</button>
+                            <button class="next-btn">&#8594;</button>
+                      </div>
+                  </div>
+                  <div class="testimonial-image">
+                    <a href="#">
+                        <img src="/images/students/josephine.jpg" alt="Person 1" class="avatar active">
+                    </a>
+                  </div>
+                </div>
+            </section>
+            <section class="counter-section">
+                <div class="counter-container">
+                  
+                        <div class="counter-box">
+                            <span class="counter" data-target="3">0</span><span class="suffix">+</span>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="counter-box">
+                            <span class="counter" data-target="120">0</span><span class="suffix">+</span>
+                            <p>Students Trained</p>
+                        </div>
+                        <div class="counter-box">
+                            <span class="counter" data-target="300">0</span><span class="suffix">+</span>
+                            <p>Community Members</p>
+                        </div>
+                        <div class="counter-box">
+                            <span class="counter" data-target="99">0</span><span class="suffix">%</span>
+                            <p>Happy Students</p>
+                        </div>
+                    
+                </div>
+            </section>
+        <!-- <section id="about-us">
+        
             
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Front End Development</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Fullstack Development</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Python</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Mobile App Development</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Data Science</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Design(UIUX/Graphic Design)</a></li>
-        </ul>
-    </div>
+                <h2>
+                    About Us
+                </h2>
+
+                <p>
+                    Welcome to Vnicom Tech Hub, where innovation meets opportunity!
+                    At Vnicom Tech Hub, we are dedicated to empowering the youth with the requisite ICT knowledge to jumpstart their careers or bring their innovative ideas to life. Our mission is to bridge the gap between technology and ambition by equipping individuals and businesses with cutting-edge resources, expert guidance, and real-world opportunities to thrive in today’s fast-paced, tech-driven world.
+                    Join us on a journey of learning, creativity, and transformation as we shape the future, one idea at a time!
+
+                </p>   
+
+        </section> -->
+        <!-- <section id="why-section">
+            <h2>
+                Why Vnicom Tech Hub?
+            </h2>
+            <div class="gallery">
+                <div class="box">
+                        <img src="images/std.jpg">
+                        <p> 
+                            Vibrant Support Community
+                        </p>
+                </div>
+                <div class="box">
+                        <img src="images/env.jpg">
+                        <p>
+                            Capstone Project
+                        </p>
+                </div>
+                <div class="box">
+                        <img src="images/teamwork.jpeg">
+                        <p> Internship Opportunity</p>
+                </div>
+            </div>    
+        </section> -->
+        <!-- <section id="stories"  class="alumni ">
+            <h2>
+                Alumni Stories
+            </h2>
+            <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="">
+                        <a  href="./stories/osaranmaye-tomiwa.html" >
+                            <img src="../images/students/tomiwa.png" alt="">
+                        <div>
+                            <h5> Student Story</h5>
+                        
+                                <p>" Osaranmaye Tomiwa: frontend developer" </p>
+                        
+                            <a class="storylink" href="./stories/osaranmaye-tomiwa.html" ><b>Read Tomiwa's story -></b></a>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">  <div class="">
+                    <a  href="./stories/rohaenat-eniola.html" >
+                        <img src="../images/students/Rohaenat Mustapha.png" alt="">
+                    <div>
+                        <h5> Student Story</h5>
+                    
+                            <p>"Navigating IT Success: Rahaenat Mustapha Eniola's Learning Journey" </p>
+                    
+                        <a class="storylink" href="./stories/rohaenat-eniola.html" ><b>Read Rohaenat's story -></b></a>
+                    </div>
+                    </a>
+                </div></div>
+                <div class="swiper-slide"><div class="">
+                    <a  href="./stories/opeyemi-balikis.html" >
+                        <img src="../images/students/Balikis.png" alt="">
+                    <div>
+                        <h5> Student Story</h5>
+                    
+                            <p>"From a tech novice to a product designer" </p>
+                    
+                        <a class="storylink" href="./stories/opeyemi-balikis.html" ><b>Read Opeyemi's story -></b></a>
+                    </div>
+                    </a>
+                </div></div>
+                <div class="swiper-slide">
+                    
+                    <div class="">
+                        <a  href="./stories/josephine-kayode.html" >
+                            <img src="../images/students/Josephine.png" alt="">
+                        <div>
+                            <h5> Student Story</h5>
+                        
+                                <p>"Unveiling the Possibilities of Tech, A Computer Science Graduate’s Journey" </p>
+                        
+                            <a class="storylink" href="./stories/josephine-kayode.html" ><b>Read Josephine's story -></b></a>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </section> -->
+        <section id="why-us">
+            <div id="intro">
+                <h2>Let's Help You<br>Prepare for The Future</h2>
+                <p>
+                    Learn new in-demand skills at Vnicom Tech Hub best-in-class training. 
+                    We provide an enabling environment and  opportunity for you to kickstart and grow your IT career.
 
 
-    <div id="find-us">
-        <h3 class="small">GET IN TOUCH</h3>
-            <ul>
-                <li id="address">
-                    <i class="fa-solid fa-location-dot"></i> 
-                        <span>
-                            Gasline Rd, Oasis Junction, Magboro Ogun State.
-                        </span>
-                </li>
-                <li><i class="fa-solid fa-phone-volume"></i> <a href="tel:+234 901 495 4421">+234 (901) 495 4421</a></li>
-                <li><i class="fa-solid fa-phone-volume"></i> <a href="tel:+234 915 780 0332">+234 (915) 780 0332</a></li>
-                <li><i class="fa-solid fa-phone-volume"></i> <a href="tel:+234 916 250 9661">+234 (916) 568 0082</a></li>
-                <li><i class="fa-regular fa-envelope"></i> <a href="mailto:training@vnicomhub.com">training@vnicomhub.com</a></li>
-            </ul>
-    </div>
+                </p>
+            </div>
+            <div id="why">
+                <article>
+                    <img src="images/why/learn.svg" alt="">
+                    <div>
+                        <h3>Gain a skill</h3>
+                        <p>
+                            Want to earn a new skill or add to your existing tech skills? 
+                            join us today at Vnicom Tech Hub and discover new possibilities.
+
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                        <img src="images/why/carrer.svg" alt="">
+                    <div>
+                        <h3>Build a career</h3>
+                        <p>
+                            Learn top-rated job focused skills in the field of software engineering and become employable within a year.
+
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                        <img src="images/why/team.svg" alt="">
+                    <div>
+                        <h3>Level up your team's skills</h3>
+                        <p>
+                            Have you identified skill gaps in your team? Reach out to us today to discuss how Vnicom Tech Hub can help.
+
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                        <img src="images/why/hire.svg" alt="">
+                    <div>
+                        <h3>Hire our Grads</h3>
+                        <p>
+                            Looking for talents to help your business or startup grow. Reach out to us and hire from our amazing pool of talents.
+
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+            <div class="footer-container">
+                    <div class="footer-first-column">
+                        <p>
+                            At Vnicom Tech Hub, 
+                            we are dedicated to empowering 
+                            the youth with the requisite ICT 
+                            knowledge to jumpstart their careers or 
+                            bring their innovative ideas to life.
+                        </p>
+                        <div class="footer-first-column-links">
+                            <a href="https://www.linkedin.com/company/vnicom-solutions-limited/" class="social-icon" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><path fill="#f5b800" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/>
+                                </svg>
+                            </a>
+                            <a href="https://x.com/VnicomHub" class="social-icon" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 14 14"><g fill="none"><g clip-path="url(#primeTwitter0)"><path fill="#f5b800" d="M11.025.656h2.147L8.482 6.03L14 13.344H9.68L6.294 8.909l-3.87 4.435H.275l5.016-5.75L0 .657h4.43L7.486 4.71zm-.755 11.4h1.19L3.78 1.877H2.504z"/></g><defs><clipPath id="primeTwitter0"><path fill="#f5b800" d="M0 0h14v14H0z"/></clipPath></defs></g>
+                            </svg>
+                            </a>
+                            <a href="https://www.instagram.com/vnicomhub/" class="social-icon" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"><path fill="#f5b800" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.facebook.com/vnicomhub " class="social-icon" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24"><path fill="#f5b800" d="M20.9 2H3.1A1.1 1.1 0 0 0 2 3.1v17.8A1.1 1.1 0 0 0 3.1 22h9.58v-7.75h-2.6v-3h2.6V9a3.64 3.64 0 0 1 3.88-4a20 20 0 0 1 2.33.12v2.7H17.3c-1.26 0-1.5.6-1.5 1.47v1.93h3l-.39 3H15.8V22h5.1a1.1 1.1 0 0 0 1.1-1.1V3.1A1.1 1.1 0 0 0 20.9 2"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-second-column">
+                        <h5>Training</h5>
+                        <a href="/courses/front-end-web-development.html">Front-end Development</a>
+                        <a href="/courses/datascience.html">Data Science</a>
+                        <a href="/courses/fullstack.html">Fullstack Web Development</a>
+                        <a href="/courses/mobileappdevelopment.html">Mobile App Development</a>
+                        <a href="/courses/product-design.html">Product/ Graphic Design</a>
+                        <a href="#">Computer Literacy</a>
+                        <a href="/courses/react-and-next.html">ReactJS /NextJS</a>
+                    </div>
+                    <div class="footer-third-column">
+                        <h5>Company</h5>
+                        <a href="/#about-us">About Us</a>
+                        <a href="/our-students/alumni.html">Alumni </a>
+                        <a href="/our-students/present-cohort.html">Present Cohort</a>
+                    </div>
+                    <div class="footer-fourth-column">
+                        <h5>Contact</h5>
+                        <div class="footer-fourth-column-contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24"><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 3l-6.5 18a.55.55 0 0 1-1 0L10 14l-7-3.5a.55.55 0 0 1 0-1z"/>
+                            </svg>
+                            <p>No 3, Dekunle Atoyebi Street, Oasis Junction, Gasline Road, Magboro Ogun State.</p>
+                        </div>
+                        <div class="footer-fourth-column-contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 16 16"><g fill="#fff"><path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/><path d="M8 14a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/></g>
+                            </svg>
+                            <p>+234 (901) 495 4421</p>
+                        </div>
+                        <div class="footer-fourth-column-contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 16 16"><g fill="#fff"><path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/><path d="M8 14a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/></g>
+                            </svg>
+                            <p>+234 (915) 780 0332</p>
+                        </div>
+                        <div class="footer-fourth-column-contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 16 16"><g fill="#fff"><path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/><path d="M8 14a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/></g>
+                            </svg>
+                            <p>+234 (916) 568 0082</p>
+                        </div>
+                        <div class="footer-fourth-column-contact">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><path fill="#fff" d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2zm-2 0l-8 5l-8-5zm0 12H4V8l8 5l8-5z"/>
+                            </svg>
+                            <p>training@vnicomhub.com</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="copyright-section">
+                <p> &copy; 2022 Vnicom. All Right Reserved</p>
+            </div>
+            </div>  
+        </footer>
+        <div>
+            <a href="https://vnicomhub.slack.com/signup#/domain-signup" target="_blank" class="slack-button">
+            <img src="/images/slack-icon.png" alt="slack">
+            </a>
+        </div>  
+        <div>
+            <!-- Scroll to Top Button -->
+            <button class="scroll-top-button" id="scroll-top-button">
+                ↑
+            </button>
+        </div>  
+
+        <!-- <section id="prepare">
+            <div id="intro">
+                <h2>
+                    Get Ready <br> For the Future
+                </h2>
+
+                <p>
+                    As the name suggests, AltSchool Africa is different from the traditional institutions. We are a school for individuals looking to gain technical skills and kickstart a career in Software Engineering. AltSchool Africa takes a non-traditional approach to learning by teaching courses directly connected with the selected track .
+                </p>
+
+                <a href="index.html#programme" class="btn">Pick a Programme</a>
+            </div>
+        </section> -->
+
+        <!-- <footer id="footer">
+            <div id="company">
+                <p>
+                    Learn new in-demand skills at Vnicom Tech Hub best-in-class training.
+                </p>
+            </div>
+
+            <div id="pages">
+                <h3 class="small">PAGES</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#programme">Our Programmes</a></li>
+                    <li><a href="index.html#about-us">About Us</a></li>
+                    <li><a href="mailto:training@vnicomhub.com">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div id="training">
+                <h3 class="small">TRAINING</h3>
+                <ul>
+                    
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Front End Development</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Fullstack Development</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Python</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Mobile App Development</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Data Science</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4KmFqL1UzVcbO7BynaSP-I8GWCK-gW-Xz_SwwqEr_hQoDZA/viewform" target="-blank" class="join">Design(UIUX/Graphic Design)</a></li>
+                </ul>
+            </div>
 
 
-    <div id="copyright">
-        <p>© Copyright 2022 <a href="https://www.vnicom.com">Vnicom</a></p>
-    </div>
+            <div id="find-us">
+                <h3 class="small">GET IN TOUCH</h3>
+                    <ul>
+                        <li id="address">
+                            <i class="fa-solid fa-location-dot"></i> 
+                                <span>
+                                    Gasline Rd, Oasis Junction, Magboro Ogun State.
+                                </span>
+                        </li>
+                        <li><i class="fa-solid fa-phone-volume"></i> <a href="tel:+234 901 495 4421">+234 (901) 495 4421</a></li>
+                        <li><i class="fa-solid fa-phone-volume"></i> <a href="tel:+234 915 780 0332">+234 (915) 780 0332</a></li>
+                        <li><i class="fa-solid fa-phone-volume"></i> <a href="tel:+234 916 250 9661">+234 (916) 568 0082</a></li>
+                        <li><i class="fa-regular fa-envelope"></i> <a href="mailto:training@vnicomhub.com">training@vnicomhub.com</a></li>
+                    </ul>
+            </div>
 
-    
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="https://kit.fontawesome.com/0d761cbbd4.js" crossorigin="anonymous"></script>
-<script defer src="js/app.js"></script>
-<script defer src="js/swipper.js"></script>
-</body>
+
+            <div id="copyright">
+                <p>© Copyright 2022 <a href="https://www.vnicom.com">Vnicom</a></p>
+            </div>
+
+            
+        </footer> -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/0d761cbbd4.js" crossorigin="anonymous"></script>
+        <script defer src="js/app.js"></script>
+        <script defer src="js/swipper.js"></script>
+    </body>
 </html>

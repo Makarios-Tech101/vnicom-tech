@@ -4,7 +4,7 @@
 
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 
     #image{
         width: 45%;
@@ -20,7 +20,8 @@
     #intro{
         width: 50%;
         h2{
-            margin-bottom:20px;
+            margin:0px;
+            line-height: 45px;
         }
         p{
             margin:20px 0px;

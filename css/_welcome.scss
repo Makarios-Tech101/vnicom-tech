@@ -1,3 +1,8 @@
+$background: #f5f5f5;
+$white: #fff;
+$lightBlue: #00aaff;
+
+
 main{
     width:100%;
     background: $background;
@@ -18,14 +23,14 @@ main{
         }
 
         #opening-soon{
-            background: $white;
-            width: 50%;
-            margin: 0px auto;
-            border-radius: 20px;
-            padding: 8px 10px;
-            font-weight: 550;
+            // background: $white;
+            // width: 50%;
+            // margin: 0px auto;
+            // border-radius: 0px;
+            // padding: 8px 10px;
+            // font-weight: 550;
 
-            font-size: 1em;
+            // font-size: 1em;
 
             margin-top: 25px;
 
@@ -33,6 +38,12 @@ main{
                 color: $lightBlue;
                 // font-weight: 550;
                 font-size: 1em;
+                background: $white;
+                width: 50%;
+                margin: 0px auto;
+                border-radius: 0px;
+                padding: 8px 10px;
+                font-weight: 550;
 
             }
         }

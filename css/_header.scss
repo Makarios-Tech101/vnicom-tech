@@ -21,7 +21,7 @@ header{
             }
         }
         #menu{
-            width: 60%;
+            width: 65%;
             color: $white;
 
             #container{
@@ -38,6 +38,11 @@ header{
                 a{
                     font-weight: 600;
                     font-size: 1.2em;
+                }
+                a#contact-us {
+                    background:#010336;
+                    color: white;
+                    padding: 5px 14px;
                 }
             }
            }
