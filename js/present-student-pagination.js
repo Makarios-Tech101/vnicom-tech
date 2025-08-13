@@ -46,11 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
             // linkedin:'https://www.linkedin.com/in' , 
             github:'https://github.com/'
         },
-        // { name: "Osaranmaye Tomiwa", 
-        //   role: "Frontend Developer", 
-        //   img: "/images/students/tomiwa.jpg", 
-        //   link: "/stories/osaranmaye-tomiwa.html" 
-        // },
+        {   name: 'Dorcas Akinyemi', 
+            img: '/images/grid-img33.jpg', 
+            profile: "Fashion Designer", 
+            review: 'Great learning environment with lovely tutors.', 
+            // linkedin:'https://www.linkedin.com/in' , 
+            github:'https://github.com/' 
+        },
         // { name: "Rohaenat Eniola", 
         //   role: "Product Designer", 
         //   img: "/images/students/roheenat.jpg", 
