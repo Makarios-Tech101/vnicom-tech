@@ -44,21 +44,43 @@ document.addEventListener("DOMContentLoaded", () => {
             profile: "Mountaintop University", 
             review: 'Was able to practically learn more about HTML and CSS and more course', 
             // linkedin:'https://www.linkedin.com/in' , 
-            github:'https://github.com/'
+            github:'#'
+        },
+        {   name: 'Ogundiran Muiz', 
+            img: '/images/students/muiz.jpg', 
+            profile: "Coming soon", 
+            review: 'It’s easy to learn with Vnicom tech hub, I really want to appreciate their effort in the computer science world , Thank You !', 
+            // linkedin: 'https://www.linkedin.com/in', 
+            github:'#' 
+        },
+        {   name: 'AbdulMalik Idowu', 
+            img: '/images/students/malik.JPG', 
+            profile: "Gateway ICT Polytechnic", 
+            review: 'Vnicom tech hub has all the resources for learning down from front end web development to back-end.They offer quality services.', 
+            // linkedin: 'https://www.linkedin.com/in', 
+            github:'https://github.com/malikidowu' 
         },
         {   name: 'Dorcas Akinyemi', 
             img: '/images/grid-img33.jpg', 
             profile: "Fashion Designer", 
             review: 'Great learning environment with lovely tutors.', 
             // linkedin:'https://www.linkedin.com/in' , 
-            github:'https://github.com/' 
+            github:'#' 
         },
-        // { name: "Rohaenat Eniola", 
-        //   role: "Product Designer", 
-        //   img: "/images/students/roheenat.jpg", 
-        //   link: "/stories/rohaenat-eniola.html" 
-        // },
-        // Add the rest of your alumni here...
+        {   name: 'Samuel Boluwatife', 
+            img: '/images/students/samuel.jpg', 
+            profile: "Coming soon", 
+            review: 'vnicom tech hub offers quality services', 
+            // linkedin: 'https://www.linkedin.com/in', 
+            github:'https://github.com/Samuelboluwatife' 
+        },
+        {   name: 'Erijesu Aladejesu',
+            img: '/images/students/erijesu.jpg', 
+            profile: "Coming soon", 
+            review: 'coming soon', 
+            // linkedin: 'https://www.linkedin.com/in', 
+            github:'https://github.com/phantom-x1' 
+        },
     ];
 
 const itemsPerPage = 6;
@@ -80,9 +102,10 @@ const itemsPerPage = 6;
        
       </div>
       <div class="grid-content">
-        <h4>${a.review}</h4>
+        <span>"${a.review}"</span>
+        <h5>${a.name}</h5>
         <p>${a.profile}</p>
-        <a class="view-quote-btn" href="${a.github}">Github</a>
+        <a class="view-quote-btn" href="${a.github}" target="_blank">Github</a>
       </div>
     `;
     return card;

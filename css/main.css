@@ -159,7 +159,7 @@ header nav #menu ul li .dropdown-menu {
   background: #E5E5EB;
   padding: 10px 15px;
   /* min-width: 200px;       */
-  width: 180px;    
+  width: 200px;    
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
@@ -248,7 +248,7 @@ header #contact-us {
     flex-direction: column;
   }
   header nav #menu ul li {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   header nav #menu ul li a {
     color: #ffffff;
@@ -279,13 +279,19 @@ header #contact-us {
   }
 
   header nav #menu ul .dropdown-menu li{
-    margin: 05px 0px 10px 0px;
+    /* margin: 05px 0px 10px 0px; */
+    margin: 10px 0px;
    
+  }
+
+  #header-alumni {
+    margin-bottom: 10px;
   }
 
   header nav #menu ul li .dropdown-menu a {
     color: white;
     font-size: 1.2em;
+    margin: 0px;
   }
 
   header #contact-us {
@@ -2120,8 +2126,16 @@ tr:hover {
   gap: 30px 20px;
   width: 90%;
   margin: 0px auto;
-  max-width: 1400px;   
-  min-width: 320px;
+  /* max-width: 1400px;   
+  min-width: 320px; */
+}
+
+.alumnis-section .alumni-grid .grid-items {
+  padding-bottom: 20px;
+  position: relative;
+  background-color: #ffffff;
+  /* max-width: 1400px;   
+  min-width: 320px; */
 }
 
 .alumnis-section .alumni-grid .grid-image  {
@@ -2145,6 +2159,7 @@ tr:hover {
 .alumnis-section .alumni-grid .grid-content{
   background-color: white;
   padding: 20px;
+  width: 100%;
   /* height: 250px; */
   /* position: relative; */
 }
@@ -2175,6 +2190,26 @@ tr:hover {
   margin: 5px 0px;
   color: #010336;
   font-size: 16px;
+  /* line-height: 28px; */
+}
+
+.alumnis-section .alumni-grid .grid-content span{
+  margin: 15px 0px 15px 0px;
+  color: #010336;
+  font-size: 1em;
+
+}
+.alumnis-section .alumni-grid .grid-content h5{
+  margin: 20px 0px 0px 0px;
+  color: #010336;
+  font-size: 1em;
+
+}
+
+.alumnis-section .alumni-grid .grid-content p{
+  margin: 0px 0px 5px 0px;
+  color: #010336;
+  font-size: 14px;
   /* line-height: 28px; */
 }
 
@@ -2232,6 +2267,7 @@ tr:hover {
   background: #fff;
   text-align: center;
   text-decoration: none;
+  margin-top: 15px;
   border-radius: 4px;
 }
 
