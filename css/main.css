@@ -164,6 +164,10 @@ header nav #menu ul li .dropdown-menu {
   z-index: 10;
 }
 
+header nav #menu ul li .dropdown-menu a:hover {
+   color:#0006b1;
+}
+
 header nav #menu ul li .dropdown-menu {
   display: none;
 }
@@ -1911,6 +1915,34 @@ tr:hover {
 
 
 /* TESTIMONIALS SECTION */
+@media (max-width: 992px) {
+ .testimonial-wrapper {
+      display: flex;
+      flex-direction: column;
+      
+      /* width: 80%;
+      margin: 0px auto 70px auto;
+      gap: 30px;
+      align-items: center; */
+  }
+  .testimonial-content {
+    text-align: left;
+    width: 100% !important;
+  }
+
+  .testimonial-image {
+      width: 100% !important;
+  }
+
+    .testimonial-image img {
+      width: 100% !important;
+      height: 100% !important;
+      /* object-fit: cover;
+      object-position: top;
+      border-radius: 20px;
+      border: none; */
+  }
+}
 .testimonial-section {
   text-align: center;
   padding: 0px;
@@ -2209,7 +2241,7 @@ tr:hover {
 .alumnis-section .alumni-grid .grid-content p{
   margin: 0px 0px 5px 0px;
   color: #010336;
-  font-size: 14px;
+  /* font-size: 14px; */
   /* line-height: 28px; */
 }
 

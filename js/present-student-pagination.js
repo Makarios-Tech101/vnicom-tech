@@ -13,9 +13,16 @@ document.addEventListener("DOMContentLoaded", () => {
         {   name: 'David Nwachukwu', 
             img: '/images/students/david.JPG', 
             profile: "Redeemers University", 
-            review: 'Coming soon', 
+            review: 'Enrolling in VNICOM is one of the best choices I have made this year. The instructors are very dedicated to making sure that each student understands what is being taught during class. When i joined, I thought I already knew what i was about to learn, until I realised that what I knew was very little compared to what was going to be taught. So, if you are looking for a place to learn various tech skills, VNICOM is the place to be.', 
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/dave-codes101'
+        },
+         {   name: 'Daniel Ogbara', 
+            img: '/images/students/daniel.JPG', 
+            profile: "Undergraduate", 
+            review: 'vnicom tech hub is a great place to grow in tech. they provide quality training, practical sessions, and guidance that help student build real skill, the environment is friendly, supportive and focused on making you job-ready. a good choice for anyone interested in tech', 
+            // linkedin: 'https://www.linkedin.com/in', 
+            github:'https://github.com/ogbara01'
         },
         {   name: 'Segun Soyemi', 
             img: '/images/students/segun.JPG', 
@@ -32,26 +39,19 @@ document.addEventListener("DOMContentLoaded", () => {
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/'
         },
-        {   name: 'Daniel Ogbara', 
-            img: '/images/students/daniel.JPG', 
-            profile: "Coming soon", 
-            review: 'Coming soon', 
-            // linkedin: 'https://www.linkedin.com/in', 
-            github:'https://github.com/ogbara01'
-        },
         {   name: 'Joshua Bolanle', 
             img: '/images/students/joshua.jpg', 
             profile: "Mountaintop University", 
             review: 'Was able to practically learn more about HTML and CSS and more course', 
             // linkedin:'https://www.linkedin.com/in' , 
-            github:'#'
+            github:'https://github.com/joshua1233345'
         },
         {   name: 'Ogundiran Muiz', 
             img: '/images/students/muiz.jpg', 
-            profile: "Coming soon", 
+            profile: "Federal University Of Agriculture Abeokuta (FUNAAB)", 
             review: 'It’s easy to learn with Vnicom tech hub, I really want to appreciate their effort in the computer science world , Thank You !', 
             // linkedin: 'https://www.linkedin.com/in', 
-            github:'#' 
+            github:'https://github.com/nimatelo' 
         },
         {   name: 'AbdulMalik Idowu', 
             img: '/images/students/malik.JPG', 
@@ -69,17 +69,31 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {   name: 'Samuel Boluwatife', 
             img: '/images/students/samuel.jpg', 
-            profile: "Coming soon", 
+            profile: "Joseph Ayo Babalola University", 
             review: 'vnicom tech hub offers quality services', 
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/Samuelboluwatife' 
         },
         {   name: 'Erijesu Aladejesu',
             img: '/images/students/erijesu.jpg', 
-            profile: "Coming soon", 
-            review: 'coming soon', 
+            profile: "Undergraduate", 
+            review: 'Learning coding at Vnicom Tech has been an amazing experience. The instructors are supportive, explain clearly, and the environment is excellent for growth. I’m excited to continue my journey here', 
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/phantom-x1' 
+        },
+        {   name: 'Fopefoluwa Alabi',
+            img: '/images/students/fope.JPG', 
+            profile: "Afe Babalola University", 
+            review: 'It is a great place to learn with efficient equipments for learning and knowledgeable Teachers', 
+            // linkedin: 'https://www.linkedin.com/in', 
+            github:'https://github.com/fopzyy23' 
+        },
+        {   name: 'Fiyinfoluwa Alabi',
+            img: '/images/students/fiyin.JPG', 
+            profile: "Covenant University", 
+            review: 'It is a nice place to learn and friendly environment', 
+            // linkedin: 'https://www.linkedin.com/in', 
+            github:'https://github.com/fiyinfoluwa123' 
         },
     ];
 
