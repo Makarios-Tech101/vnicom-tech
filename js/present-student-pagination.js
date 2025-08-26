@@ -3,20 +3,21 @@
 // ALUMNI AND INNER PAGES GRID PAGINATION
 document.addEventListener("DOMContentLoaded", () => {
     const alumni = [
-        {   name: 'Oladapo', 
-            img: '/images/students/oladapo.jpg', 
-            profile: "Bowen University", 
-            review: 'My training experience with Vnicom Tech Hub was informative and valuable.', 
+        {   name: 'Erijesu Aladejesu',
+            img: '/images/students/erijesu.jpg', 
+            profile: "Undergraduate", 
+            review: 'Learning coding at Vnicom Tech has been an amazing experience. The instructors are supportive, explain clearly, and the environment is excellent for growth. I’m excited to continue my journey here', 
             // linkedin: 'https://www.linkedin.com/in', 
-            github: 'https://github.com/OladapoAdu',
+            github:'https://github.com/phantom-x1' 
         },
-        {   name: 'David Nwachukwu', 
-            img: '/images/students/david.JPG', 
-            profile: "Redeemers University", 
-            review: 'Enrolling in VNICOM is one of the best choices I have made this year. The instructors are very dedicated to making sure that each student understands what is being taught during class. When i joined, I thought I already knew what i was about to learn, until I realised that what I knew was very little compared to what was going to be taught. So, if you are looking for a place to learn various tech skills, VNICOM is the place to be.', 
+        {   name: 'Fopefoluwa Alabi',
+            img: '/images/students/fope.JPG', 
+            profile: "Afe Babalola University", 
+            review: 'It is a great place to learn with efficient equipments for learning and knowledgeable Teachers', 
             // linkedin: 'https://www.linkedin.com/in', 
-            github:'https://github.com/dave-codes101'
+            github:'https://github.com/fopzyy23' 
         },
+       
          {   name: 'Daniel Ogbara', 
             img: '/images/students/daniel.JPG', 
             profile: "Undergraduate", 
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {   name: 'Segun Soyemi', 
             img: '/images/students/segun.JPG', 
-            profile: "Coming soon", 
+            profile: "Undergraduate", 
             review: 'VNICOM tech hub has helped me navigate my path in front-end web development', 
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/kira516' 
@@ -74,19 +75,12 @@ document.addEventListener("DOMContentLoaded", () => {
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/Samuelboluwatife' 
         },
-        {   name: 'Erijesu Aladejesu',
-            img: '/images/students/erijesu.jpg', 
-            profile: "Undergraduate", 
-            review: 'Learning coding at Vnicom Tech has been an amazing experience. The instructors are supportive, explain clearly, and the environment is excellent for growth. I’m excited to continue my journey here', 
+        {   name: 'Oladapo', 
+            img: '/images/students/oladapo.jpg', 
+            profile: "Bowen University", 
+            review: 'My training experience with Vnicom Tech Hub was informative and valuable.', 
             // linkedin: 'https://www.linkedin.com/in', 
-            github:'https://github.com/phantom-x1' 
-        },
-        {   name: 'Fopefoluwa Alabi',
-            img: '/images/students/fope.JPG', 
-            profile: "Afe Babalola University", 
-            review: 'It is a great place to learn with efficient equipments for learning and knowledgeable Teachers', 
-            // linkedin: 'https://www.linkedin.com/in', 
-            github:'https://github.com/fopzyy23' 
+            github: 'https://github.com/OladapoAdu',
         },
         {   name: 'Fiyinfoluwa Alabi',
             img: '/images/students/fiyin.JPG', 
@@ -94,6 +88,13 @@ document.addEventListener("DOMContentLoaded", () => {
             review: 'It is a nice place to learn and friendly environment', 
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/fiyinfoluwa123' 
+        },
+         {   name: 'David Nwachukwu', 
+            img: '/images/students/david.JPG', 
+            profile: "Redeemers University", 
+            review: 'Enrolling in VNICOM is one of the best choices I have made this year. The instructors are very dedicated to making sure that each student understands what is being taught during class. When i joined, I thought I already knew what i was about to learn, until I realised that what I knew was very little compared to what was going to be taught. So, if you are looking for a place to learn various tech skills, VNICOM is the place to be.', 
+            // linkedin: 'https://www.linkedin.com/in', 
+            github:'https://github.com/dave-codes101'
         },
     ];
 
