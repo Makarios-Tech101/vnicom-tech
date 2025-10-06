@@ -477,6 +477,7 @@ main #intro #opening-soon a {
 }
 #programme #programmes article .content p {
   margin-bottom: 20px;
+  height: 230px;
 }
 #programme #programmes article .content .join {
   padding: 3% 0px;
@@ -2321,12 +2322,10 @@ tr:hover {
        
     }
     .alumnis-section .alumni-grid .grid-content span{
-      display:block;
-      margin: 15px 0px 15px 0px;
+      height: 170px;
+    }
+    #programme #programmes article .content p {
       height: 100%;
-      color: #010336;
-      font-size: 1em;
-
     }
 }
 
@@ -2335,6 +2334,10 @@ tr:hover {
         display: grid;
         grid-template-columns: 100%;
        
+    }
+
+    .alumnis-section .alumni-grid .grid-content span{
+      height: 100%;
     }
 }
 
