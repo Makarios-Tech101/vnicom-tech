@@ -1175,6 +1175,57 @@ footer #copyright p a {
   margin-top: 50px;
 }
 
+.alumni-modal {
+  display: none; 
+  position: fixed;
+  z-index: 9999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  justify-content: center; 
+  align-items: center;
+}
+
+.alumni-modal-content {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+/* .alumni-modal-content img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+} */
+
+.alumni-modal-content h4 {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  color:#05002D;
+}
+
+.alumni-modal-content p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color:#05002D;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 25px;
+  color: #666;
+  cursor: pointer;
+}
+
+
 @media screen and (max-width: 800px) {
   .story-wrapper {
     max-width: 100%;
@@ -2159,10 +2210,13 @@ tr:hover {
 
 .alumnis-section .alumni-grid  {
   display: grid;
-  grid-template-columns: 32% 32% 32%;;
+  /* grid-template-columns: 22% 22% 22% 22%; */
+  justify-content: center;
+  grid-template-columns: repeat(4, 22%);
   gap: 30px 20px;
   width: 90%;
   margin: 0px auto;
+  
   /* max-width: 1400px;   
   min-width: 320px; */
 }
@@ -2171,15 +2225,25 @@ tr:hover {
   padding-bottom: 20px;
   position: relative;
   background-color: #ffffff;
+  border-radius: 10px;
+
   /* max-width: 1400px;   
   min-width: 320px; */
 }
+
+.alumnis-section .alumni-grid .grid-items:hover {
+  border-radius: 10px;
+  border: 1px solid #be8e00;
+
+}
+
 
 .alumnis-section .alumni-grid .grid-image  {
   background-color: #E5E5EB;
   background-image: url("/images/why-choose-blue.png");
   background-repeat: repeat;
   background-position: center;
+  border-radius: 10px 10px 0px 0px;
   background-size: cover;
   width: 100%;
   /* height: 250px; */
@@ -2238,7 +2302,7 @@ tr:hover {
 .alumnis-section .alumni-grid .grid-content span{
   display:block;
   margin: 15px 0px 15px 0px;
-  height: 150px;
+  /* height: 150px; */
   color: #010336;
   font-size: 1em;
 
@@ -2485,6 +2549,11 @@ tr:hover {
 }
 
 .footer .copyright-section p{
+    color: white;
+    font-size: 1em;
+}
+
+.footer .copyright-section a{
     color: white;
     font-size: 1em;
 }

@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
          {   name: 'David Nwachukwu', 
             img: '/images/students/david1.png', 
             profile: "Redeemers University", 
-            review: 'Enrolling in VNICOM is one of the best choices I have made this year. The instructors are very dedicated to making sure that each student understands what is being taught during class. So, if you are looking for a place to learn various tech skills, VNICOM is the place to be.', 
+            review: 'Enrolling in VNICOM is one of the best choices I have made this year. The instructors are very dedicated to making sure that each student understands what is being taught during class. When i joined, I thought I already knew what i was about to learn, until I realised that what I knew was very little compared to what was going to be taught. So, if you are looking for a place to learn various tech skills, VNICOM is the place to be.', 
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/dave-codes101'
         },
          {   name: 'Daniel Ogbara', 
             img: '/images/students/daniel1.png', 
             profile: "Undergraduate", 
-            review: 'vnicom tech hub is a great place to grow in tech. They provide quality training, practical sessions, and guidance that help student build real skill. The environment is friendly, supportive and focused on making you job-ready, a good choice for anyone interested in tech', 
+            review: 'Vnicom tech hub is a great place to grow in tech. They provide quality training, practical sessions, and guidance that help student build real skill. The environment is friendly, supportive and focused on making you job-ready, a good choice for anyone interested in tech', 
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/ogbara01'
         },
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {   name: 'Ogundiran Muiz', 
             img: '/images/students/muiz1.png', 
-            profile: "Federal University Of Agriculture", 
+            profile: "FUNNAB", 
             review: 'It’s easy to learn with Vnicom tech hub, I really want to appreciate their effort in the computer science world , Thank You !', 
             // linkedin: 'https://www.linkedin.com/in', 
             github:'https://github.com/nimatelo' 
@@ -98,31 +98,50 @@ document.addEventListener("DOMContentLoaded", () => {
         
     ];
 
-const itemsPerPage = 6;
+ const itemsPerPage = 8;
   let currentPage = 1;
 
   const grid = document.getElementById("alumni-grid");
   const pagination = document.getElementById("pagination");
 
-  // Safety checks
-  if (!grid) { console.error("#alumni-grid not found"); return; }
-  if (!pagination) { console.error("#pagination not found"); return; }
+  // Modal elements
+  const modal = document.getElementById("alumniModal");
+  const modalImg = document.getElementById("modalImage");
+  const modalName = document.getElementById("modalName");
+  const modalProfile = document.getElementById("modalProfile");
+  const modalReview = document.getElementById("modalReview");
+  const closeBtn = document.querySelector(".close-btn");
+
+  function truncateText(text, maxLength) {
+    return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
+  }
 
   function cardTemplate(a) {
     const card = document.createElement("div");
     card.className = "grid-items";
     card.innerHTML = `
       <div class="grid-image">
-          <img src="${a.img}" alt="${a.name}">
-       
+        <img src="${a.img}" alt="${a.name}">
       </div>
       <div class="grid-content">
-        <span>"${a.review}"</span>
+        <span class=''>"${truncateText(a.review, 50)}"</span>
         <h5>${a.name}</h5>
         <p>${a.profile}</p>
         <a class="view-quote-btn" href="${a.github}" target="_blank">Github</a>
       </div>
     `;
+
+    // Open modal on click
+    const reviewSpan = card.querySelector(".grid-content span");
+    reviewSpan.style.cursor = "pointer"; 
+    reviewSpan.addEventListener("click", () => {
+      modal.style.display = "flex";
+      // modalImg.src = a.img;
+      modalName.textContent = a.name;
+      // modalProfile.textContent = a.profile;
+      modalReview.textContent = a.review;
+    });
+
     return card;
   }
 
@@ -137,7 +156,6 @@ const itemsPerPage = 6;
     pagination.innerHTML = "";
     const pageCount = Math.ceil(alumni.length / itemsPerPage);
 
-    // Prev
     const prev = document.createElement("button");
     prev.textContent = "‹ Prev";
     prev.disabled = currentPage === 1;
@@ -150,7 +168,6 @@ const itemsPerPage = 6;
     });
     pagination.appendChild(prev);
 
-    // Numbers
     for (let i = 1; i <= pageCount; i++) {
       const btn = document.createElement("button");
       btn.textContent = i;
@@ -163,7 +180,6 @@ const itemsPerPage = 6;
       pagination.appendChild(btn);
     }
 
-    // Next
     const next = document.createElement("button");
     next.textContent = "Next ›";
     next.disabled = currentPage === pageCount;
@@ -176,6 +192,12 @@ const itemsPerPage = 6;
     });
     pagination.appendChild(next);
   }
+
+  // Close modal
+  closeBtn.addEventListener("click", () => modal.style.display = "none");
+  window.addEventListener("click", (e) => {
+    if (e.target === modal) modal.style.display = "none";
+  });
 
   displayAlumni(currentPage);
   setupPagination();

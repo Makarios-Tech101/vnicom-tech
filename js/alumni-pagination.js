@@ -2,7 +2,7 @@
 // ALUMNI AND INNER PAGES GRID PAGINATION
 document.addEventListener("DOMContentLoaded", () => {
     const alumni = [
-        { name: "Josephine Taiwo Kayode", 
+        { name: "Kayode Josephine", 
           role: "Product Designer at Vnicom Solutions", 
           img: "/images/students/josephine.jpg", 
           link: "/stories/josephine-kayode.html" 
@@ -12,20 +12,21 @@ document.addEventListener("DOMContentLoaded", () => {
           img: "/images/students/mayowa.jpg", 
           link: "/stories/mayowa-oyeniran.html" 
         },
-        { name: "Eniiyi Heritage", 
-          role: "Works at Zenith Bank", 
-          img: "/images/students/Eniiyi-2.jpeg", 
-          link: "/stories/eniiyi-heritage.html" 
+         { name: "Daniel Bolarinwa", 
+          role: "UI/UX Tutor at Vnicom Tech Hub", 
+          img: "/images/students/daniel.png", 
+          link: "/stories/daniel-bolarinwa.html" 
         },
-        { name: "Gbenga Oladunjoye Feranmi", 
+        
+        { name: "Oladunjoye Feranmi", 
           role: "Fullstack Developer at Vnicom Solutions", 
           img: "/images/students/feranmi.jpeg", 
           link: "/stories/feranmi-oladunjoye.html" 
         },
-        { name: "Daniel Bolarinwa", 
-          role: "UI/UX Tutor at Vnicom Tech Hub", 
-          img: "/images/students/daniel.png", 
-          link: "/stories/daniel-bolarinwa.html" 
+        { name: "Eniiyi Heritage", 
+          role: "Works at Zenith Bank", 
+          img: "/images/students/Eniiyi-2.jpeg", 
+          link: "/stories/eniiyi-heritage.html" 
         },
         { name: "Fatai Balikis Opeyemi", 
           role: "UI/UX Designer at Pacer Lab", 
@@ -37,15 +38,91 @@ document.addEventListener("DOMContentLoaded", () => {
           img: "/images/students/tomiwa.jpg", 
           link: "/stories/osaranmaye-tomiwa.html" 
         },
+
         { name: "Rohaenat Eniola", 
           role: "Product Designer", 
           img: "/images/students/roheenat.jpg", 
           link: "/stories/rohaenat-eniola.html" 
         },
+        { name: "Vincent Lawal", 
+          role: "Data Scientist", 
+          img: "/images/students/vincent.jpg", 
+          link: "/stories/vincent-lawal.html" 
+        },
+        { name: "Ogunrinlade Olalekan", 
+          role: "Fullstack Developer", 
+          img: "/images/students/Olalekan-Ogunrinlade.jpg", 
+          link: "/stories/olalekan-ogunrinlade.html" 
+        },
+        { name: "Obajuluwa Anyinoluwa", 
+          role: "Frontend Developer", 
+          img: "/images/students/anyin.jpg", 
+          link: "#" 
+        },
+        { name: "Ojukwo Daniel", 
+          role: "Fullstack Developer", 
+          img: "/images/students/chinaza.jpg", 
+          link: "#" 
+        },
+        { name: "Ihinmikalu Deborah-", 
+          role: "Frontend Developer", 
+          img: "/images/students/deborah.jpg", 
+          link: "#" 
+        },
+        { name: "Iluobe Goodluck", 
+          role: "Frontend Developer", 
+          img: "/images/students/goodluck.jpg", 
+          link: "#" 
+        },
+        { name: "Adeniyi Idris", 
+          role: "Fullstack Developer", 
+          img: "/images/students/idris.jpg", 
+          link: "#" 
+        },
+        { name: "Babalola James", 
+          role: "Fullstack Developer", 
+          img: "/images/students/james.jpg", 
+          link: "#" 
+        },
+        { name: "Ogor Joy", 
+          role: "Fullstack Developer", 
+          img: "/images/students/joy.jpg", 
+          link: "#" 
+        },
+        { name: "Fadodu Moses", 
+          role: "Product Designer", 
+          img: "/images/students/moses.jpg", 
+          link: "#" 
+        },
+        { name: "Jonathan Prosper", 
+          role: "Fullstack Developer", 
+          img: "/images/students/propser.jpg", 
+          link: "#" 
+        },
+        { name: "Samuel Mofopefoluwa", 
+          role: "Fullstack Developer", 
+          img: "/images/students/samuell.jpg", 
+          link: "#" 
+        },
+        { name: "Olukoga Subomi", 
+          role: "Frontend Developer", 
+          img: "/images/students/subomii.jpg", 
+          link: "#" 
+        },
+        { name: "Ekele ThankGod", 
+          role: "Frontend Developer", 
+          img: "/images/students/thankGod.jpg", 
+          link: "#" 
+        },
+        { name: "Ajewole Tofunmi", 
+          role: "Fullstack Developer", 
+          img: "/images/students/tofunmi.jpg", 
+          link: "#" 
+        },
         // Add the rest of your alumni here...
     ];
 
-const itemsPerPage = 6;
+const itemsPerPage = 8;
   let currentPage = 1;
 
   const grid = document.getElementById("alumni-grid");
