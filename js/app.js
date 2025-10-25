@@ -163,14 +163,14 @@ document.addEventListener("DOMContentLoaded", () => {
             link: "/stories/josephine-kayode.html"
         },
         {
-            img: "/images/students/Eniiyi-2.jpeg",
+            img: "/images/students/Eniyii.jpg",
             text: "It was a fun learning Experience with challenging tutors who strive to improve their students and themselves alike",
             name: "Eniiyi Heritage",
             role: "Works at Zenith Bank",
             link: "/stories/eniiyi-heritage.html"
         },
         {
-            img: "/images/students/balikis.jpg",
+            img: "/images/students/opeyemi.jpg",
             text: "Vnicom Tech Hub eased and sped up my learning process. I must say it is a platform specifically ordained by God for me to be trained in...",
             name: "Fatai Balikis Opeyemi",
             role: "UI/UX Designer at Pacer Labs",
@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
             link: "/stories/mayowa-oyeniran.html"
         },
         {
-            img: "/images/students/feranmi.jpeg",
+            img: "/images/students/feranmi.jpg",
             text: "I began my tech journey at Vnicom Tech Hub with no prior experience. During my time there, I learned the fundamentals of web development...",
             name: "Gbenga Oladunjoye Feranmi",
             role: "Full Stack Web Developer at Vnicom Solutions",

@@ -2038,6 +2038,7 @@ tr:hover {
 }
 
 .testimonial-image {
+  /* background-image: url("/images/why-choose-blue.png"); */
   width: 50%;
 }
 
@@ -2239,7 +2240,8 @@ tr:hover {
 
 
 .alumnis-section .alumni-grid .grid-image  {
-  background-color: #E5E5EB;
+  /* background-color: #E5E5EB; */
+  /* background-color: #97A9BD; */
   background-image: url("/images/why-choose-blue.png");
   background-repeat: repeat;
   background-position: center;
